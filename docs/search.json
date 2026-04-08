@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "publicacoes.html",
+    "href": "publicacoes.html",
+    "title": "Artigos e Publicações",
+    "section": "",
+    "text": "Abaixo estão listados meus principais trabalhos acadêmicos e pesquisas na área de bioinformática, genômica e biologia molecular.\n\n2026\n\nTítulo do seu artigo mais recente aqui\n\nRevista/Journal, 2026. * Ler Artigo (DOI) | PDF\n\n\n\n\n2025\n\nAnálise multi-ômica de dados TCGA-BRCA… (Exemplo)\n\nRevista de Bioinformática, 2025.\nLer Artigo (DOI) | PDF\n\n\n(Em breve conectaremos essa página diretamente com o seu Google Scholar ou listaremos seus preprints e repositórios do Nextflow)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mateus Falco",
+    "section": "",
+    "text": "Sou Cientista Biomédico com especialização em microbiologia e biologia molecular, atualmente doutorando em Ciências Farmacêuticas pela Unicentro e cursando MBA em Data Science & Analytics pela USP/Esalq. No âmbito acadêmico, atuo como professor de imunologia clínica, bacteriologia clínica e bioquímica clínica no Centro Universitário Uniguairacá.\nMinha pesquisa e atuação técnica são focadas em bioinformática, biologia computacional e genômica. Tenho grande interesse na construção e otimização de fluxos de trabalho escaláveis para análise de dados biológicos complexos, bem como no desenvolvimento de pipelines para genômica tumoral e variant calling.\nAtualmente, sou fundador da Genobit, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como Nextflow Ambassador, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.\n\n\nInteresses\n\nBioinformática e Biologia Computacional\nGenômica e Variant Calling\nPipelines de Análise de Dados (Nextflow, Snakemake)\nEmpreendedorismo em Biotecnologia\n\n\n\nEducação\n\nDoutorado em Ciências Farmacêuticas | Unicentro (Em andamento)\nMBA em Data Science & Analytics | USP/Esalq (Em andamento)\nMestrado em Microbiologia | Universidade Estadual de Londrina (UEL)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

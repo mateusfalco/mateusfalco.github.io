@@ -1,0 +1,16 @@
+---
+title: "Artigos e Publicações"
+---
+
+Abaixo estão listados meus principais trabalhos acadêmicos e pesquisas na área de bioinformática, genômica e biologia molecular.
+
+### 2026
+* **Título do seu artigo mais recente aqui**
+  * *Revista/Journal, 2026.* * [Ler Artigo (DOI)](#) | [PDF](#)
+
+### 2025
+* **Análise multi-ômica de dados TCGA-BRCA... (Exemplo)**
+  * *Revista de Bioinformática, 2025.*
+  * [Ler Artigo (DOI)](#) | [PDF](#)
+
+*(Em breve conectaremos essa página diretamente com o seu Google Scholar ou listaremos seus preprints e repositórios do Nextflow).*

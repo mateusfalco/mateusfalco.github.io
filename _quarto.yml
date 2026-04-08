@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs # Isso diz ao Quarto para salvar o site pronto na pasta 'docs'
+
+website:
+  title: "Portfólio | Mateus Falco"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: publicacoes.qmd
+        text: Artigos & Publicações
+  page-footer:
+    center: "Desenvolvido com [Quarto](https://quarto.org). <br> <div style='font-weight: bold;'>Powered by GENO<span style='color:#00B88D;'>Bit</span><span style='color:#FF7A00; font-size:18px;'>.</span></div>"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
