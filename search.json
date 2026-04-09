@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "cursos.html",
+    "href": "cursos.html",
+    "title": "Cursos & Workshops",
+    "section": "",
+    "text": "Materiais de aulas, palestras e workshops focados em capacitar a comunidade científica na adoção de ferramentas bioinformáticas e diagnósticos clínicos.\n\nBioinformática e Reprodutibilidade\n\nNextflow para Iniciantes: Material de apoio do meu trabalho como Nextflow Ambassador. Como construir pipelines escaláveis do zero.\n\nAcessar Slides | Repositório de Exercícios\n\n\n\n\nDocência Universitária\n\nImunologia e Bacteriologia Clínica: Materiais selecionados de aulas práticas e teóricas ministradas no curso de Medicina.\n\nBaixar Material"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mateus Falco",
@@ -19,5 +26,12 @@
     "title": "Artigos e Publicações",
     "section": "",
     "text": "Abaixo estão listados meus principais trabalhos acadêmicos e pesquisas na área de bioinformática, genômica e biologia molecular.\n\n2026\n\nTítulo do seu artigo mais recente aqui\n\nRevista/Journal, 2026. * Ler Artigo (DOI) | PDF\n\n\n\n\n2025\n\nAnálise multi-ômica de dados TCGA-BRCA… (Exemplo)\n\nRevista de Bioinformática, 2025.\nLer Artigo (DOI) | PDF\n\n\n(Em breve conectaremos essa página diretamente com o seu Google Scholar ou listaremos seus preprints e repositórios do Nextflow)."
+  },
+  {
+    "objectID": "ferramentas.html",
+    "href": "ferramentas.html",
+    "title": "Ferramentas & Pipelines",
+    "section": "",
+    "text": "Como foco em reprodutibilidade e escalabilidade na biologia computacional, desenvolvo e mantenho fluxos de trabalho para análise de dados genômicos.\n\nGenômica e Variant Calling\n\nnf-nexus: Um pipeline robusto em Nextflow desenvolvido para replicar o workflow de variant calling do GDC TCGA. Focado em alta performance para dados tumorais.\n\nVer no GitHub | Documentação\n\n\n\n\nAnálise Multi-ômica\n\nChIP-seq & WES Pipelines: Fluxos de trabalho automatizados (Snakemake/Nextflow) para análise de exomas completos e dados de imunoprecipitação da cromatina.\n\nVer no GitHub"
   }
 ]
