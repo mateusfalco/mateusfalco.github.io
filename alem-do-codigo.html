@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Portfólio - Mateus Falco</title>
+<title>Portfólio - Além do Código</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -67,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SEUCODIGO"></script>
 
 <script type="text/javascript">
@@ -77,14 +109,43 @@ gtag('js', new Date());
 gtag('config', 'G-SEUCODIGO', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -99,7 +160,7 @@ gtag('config', 'G-SEUCODIGO', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
@@ -115,7 +176,7 @@ gtag('config', 'G-SEUCODIGO', { 'anonymize_ip': true});
 <span class="menu-text">Ferramentas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./alem-do-codigo.html"> 
+    <a class="nav-link active" href="./alem-do-codigo.html" aria-current="page"> 
 <span class="menu-text">Além do Código</span></a>
   </li>  
   <li class="nav-item">
@@ -143,78 +204,86 @@ gtag('config', 'G-SEUCODIGO', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Além do Código</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Arte">Arte <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Filosofia">Filosofia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Matemática">Matemática <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="profile.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Mateus Falco</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://portal.genobit.net" class="about-link" rel="" target="">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Portal GAIA</span>
-  </a>
-  <a href="mailto:matlucfalco@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://github.com/mateusfalco" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://linkedin.com/in/mateusfalco" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://orcid.org/0000-0002-0210-2612" class="about-link" rel="" target="">
-    <i class="bi bi-clipboard-data"></i>
-     <span class="about-link-text">ORCID</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=mQW0aJYAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<div style="text-align: justify;">
-<p>Sou Cientista Biomédico com especialização em microbiologia e biologia molecular, atualmente doutorando em Ciências Farmacêuticas pela Unicentro e cursando MBA em Data Science &amp; Analytics pela USP/Esalq. No âmbito acadêmico, atuo como professor de imunologia clínica, bacteriologia clínica e bioquímica clínica no Centro Universitário Uniguairacá.</p>
-<p>Minha pesquisa e atuação técnica são focadas em <strong>bioinformática, biologia computacional e genômica</strong>. Tenho grande interesse na construção e otimização de fluxos de trabalho escaláveis para análise de dados biológicos complexos, bem como no desenvolvimento de pipelines para genômica tumoral e variant calling.</p>
-<p>Atualmente, sou fundador da <strong>Genobit</strong>, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como <strong>Nextflow Ambassador</strong>, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.</p>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+<p>Um espaço dedicado a interesses pessoais, reflexões filosóficas, música, arte e tudo aquilo que vai além das linhas de código e bancadas de laboratório.</p>
 <hr>
-<section id="interesses" class="level3">
-<h3 data-anchor-id="interesses">Interesses</h3>
-<ul>
-<li>Bioinformática e Biologia Computacional</li>
-<li>Genômica e Variant Calling</li>
-<li>Pipelines de Análise de Dados (Nextflow, Snakemake)</li>
-<li>Empreendedorismo em Biotecnologia</li>
-</ul>
-</section>
-<section id="educação" class="level3">
-<h3 data-anchor-id="educação">Educação</h3>
-<ul>
-<li><strong>Doutorado em Ciências Farmacêuticas</strong> | Unicentro (Em andamento)</li>
-<li><strong>MBA em Data Science &amp; Analytics</strong> | USP/Esalq (Em andamento)</li>
-<li><strong>Mestrado em Microbiologia</strong> | Universidade Estadual de Londrina (UEL)</li>
-</ul>
 
 
-</section>
-</main></div>
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Arte,Filosofia,Matemática" data-listing-date-sort="1775617200000" data-listing-file-modified-sort="1775699569318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="thumbnail">
+<p><a href="./posts/filosofia-escher/index.html" class="no-external"></a></p><a href="./posts/filosofia-escher/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/filosofia-escher/index.html" class="no-external"></a></p>
 </div>
- <!-- /main -->
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/filosofia-escher/index.html" class="no-external">Matemática e Arte: A Perspectiva de M.C. Escher</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/filosofia-escher/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Arte'); return false;">
+Arte
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Filosofia'); return false;">
+Filosofia
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Matemática'); return false;">
+Matemática
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/filosofia-escher/index.html" class="no-external">Uma breve reflexão sobre a interseção entre o infinito, a geometria e as ilusões de ótica.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/filosofia-escher/index.html" class="no-external">
+<div class="listing-date">
+Apr 8, 2026
+</div>
+<div class="listing-author">
+Mateus Falco
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -379,6 +448,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
