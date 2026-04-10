@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "Bem-vindo",
     "section": "",
-    "text": "A biologia é o maior sistema de dados que existe.\n  \"O desenvolvimento de pipelines bioinformáticos não é apenas sobre processamento, mas sobre construir pontes reprodutíveis entre a biologia molecular e a descoberta clínica.\"\n\n\n::: {.panel-tabset .nav-pills}\n🚀 Painel de Atualizações\nCode snippet\n\n\n  \n    \n      Desenvolvimento\n      \n        nf-nexus\n        O workflow focado em variant calling somático baseado no modelo TCGA continua recebendo aprimoramentos de escalabilidade utilizando Nextflow.\n      \n    \n  \n  \n  \n    \n      Soluções Corporativas\n      \n        Portal GAIA Online\n        A plataforma automatizada de análises inteligentes da Genobit segue em plena operação para laboratórios e pesquisadores.\n      \n    \n  \n\n\n🧠 Foco Atual\nCode snippet\n\n\n  \n    Filosofia Computacional & Rust\n    Além do gerenciamento da infraestrutura em nuvem, os estudos recentes têm focado na interseção entre a filosofia da matemática — com releituras das obras de Turing e os teoremas da incompletude de Gödel — e o aprendizado da linguagem Rust para a construção de variant callers de altíssima performance estrutural para bioinformática.\n  \n\n\n:::"
+    "text": "A biologia é o maior sistema de dados que existe.\n  \"O desenvolvimento de pipelines bioinformáticos não é apenas sobre processamento, mas sobre construir pontes reprodutíveis entre a biologia molecular e a descoberta clínica.\""
   },
   {
     "objectID": "cursos.html",
