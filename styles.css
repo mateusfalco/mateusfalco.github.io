@@ -1,1 +1,10 @@
 /* css styles */
+
+/* Altera apenas o fundo da logo na barra de navegação */
+.navbar-brand img {
+    background-color: #1a1a1a; /* Um cinza quase preto, muito elegante */
+    padding: 6px; /* Dá um respiro entre a logo e a borda da cor */
+    border-radius: 8px; /* Deixa as pontinhas arredondadas */
+    /* Se quiser a logo um pouco maior, você pode descomentar a linha abaixo tirando as barras e asteriscos */
+    /* max-height: 50px !important; */ 
+}
