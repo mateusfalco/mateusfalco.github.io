@@ -1,13 +1,12 @@
 /* css styles */
 
-/* Ajuste da logo MLF para contraste máximo */
+/* Tamanho da logo flutuante (fundo 100% transparente) */
 .navbar-logo {
-    background-color: #f8f9fa !important; /* Cinza ultra-claro (Bootstrap 'light') para dar contraste à logo escura */
-    max-height: 70px !important; /* Aumentado ligeiramente para melhor leitura da logo */
+    max-height: 55px !important; /* Mantém o tamanho que ajustamos */
     height: auto !important;
-    padding: 10px !important; /* Aumentado para o fundo claro aparecer melhor */
-    border-radius: 8px !important; /* Bordas arredondadas para o efeito 'badge' */
-    margin-top: -12px !important; /* Ajuste vertical fino */
-    margin-bottom: -12px !important;
-    display: inline-block; /* Garante que o fundo apareça corretamente */
+    margin-top: -5px !important; /* Evita que a barra fique muito larga */
+    margin-bottom: -5px !important;
+    background-color: transparent !important; /* Garante que o CSS não injete nenhuma cor */
+    padding: 0 !important; /* Remove preenchimentos antigos */
+    border-radius: 0 !important; /* Remove bordas antigas */
 }
