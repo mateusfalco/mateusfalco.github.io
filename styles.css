@@ -10,3 +10,9 @@
     padding: 0 !important; /* Remove preenchimentos antigos */
     border-radius: 0 !important; /* Remove bordas antigas */
 }
+
+/* Altera a cor de fundo da aba selecionada (nav-pills) para o verde padrão do tema */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #18bc9c !important;
+    color: white !important;
+}
