@@ -42,10 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2c65459e6f9336dfdec45ee620920ed2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cd7f44f2e2e7ed9a3c8b9cf04efa0c11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-426f57946da6d9dace99871f76321152.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cd7f44f2e2e7ed9a3c8b9cf04efa0c11.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,18 +82,178 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Bioinformática e Genômica">
-<meta property="og:description" content="Cientista Biomédico, doutorando em Ciências Farmacêuticas e fundador da Genobit. Bioinformática, biologia computacional e genômica.">
 <meta property="og:image" content="https://mateusfalco.github.io/profile.jpg">
 <meta property="og:site_name" content="Mateus Falco">
 <meta property="og:image:alt" content="Foto de Mateus Falco">
 <meta name="twitter:title" content="Bioinformática e Genômica">
-<meta name="twitter:description" content="Cientista Biomédico, doutorando em Ciências Farmacêuticas e fundador da Genobit. Bioinformática, biologia computacional e genômica.">
 <meta name="twitter:image" content="https://mateusfalco.github.io/profile.jpg">
 <meta name="twitter:image:alt" content="Foto de Mateus Falco">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,24 +275,51 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./projetos.html"> 
+<span class="menu-text">Projetos</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./publicacoes.html"> 
-<span class="menu-text">Artigos &amp; Publicações</span></a>
+<span class="menu-text">Publicações</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./comunidade.html"> 
+<span class="menu-text">Comunidade</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./cv-mateus-falco.pdf"> <i class="bi bi-file-earmark-person" role="img" aria-label="Baixar currículo em PDF">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./en/index.html"> 
+<span class="menu-text">EN</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/mateusfalco"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/mateusfalco"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+    <a class="nav-link" href="https://www.linkedin.com/in/mateusfalco/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img" aria-label="RSS do blog">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -139,45 +330,33 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+
 <div class="quarto-about-jolla">
   <img src="profile.jpg" alt="Foto de Mateus Falco" class="about-image
-  round " style="height: 15em; width: 15em;">
+  round " style="height: 14em; width: 14em;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Mateus Falco</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header><main class="content" id="quarto-document-content">
+</header><div id="sobre">
+<p><span class="hero-tagline">Bioinformática · Genômica · Pipelines escaláveis</span></p>
+<p><span class="hero-badges"><span class="badge-pill"><i class="bi bi-diagram-3"></i> Nextflow Ambassador</span> <span class="badge-pill"><i class="bi bi-rocket-takeoff"></i> Fundador da Genobit</span> <span class="badge-pill"><i class="bi bi-mortarboard"></i> Doutorando · Unicentro</span></span></p>
 <p>Sou Cientista Biomédico com especialização em microbiologia e biologia molecular, atualmente doutorando em Ciências Farmacêuticas pela Unicentro e cursando MBA em Data Science &amp; Analytics pela USP/Esalq. No âmbito acadêmico, atuo como professor de imunologia clínica, bacteriologia clínica e bioquímica clínica no Centro Universitário Uniguairacá.</p>
 <p>Minha pesquisa e atuação técnica são focadas em <strong>bioinformática, biologia computacional e genômica</strong>. Tenho grande interesse na construção e otimização de fluxos de trabalho escaláveis para análise de dados biológicos complexos, bem como no desenvolvimento de pipelines para genômica tumoral e variant calling.</p>
 <p>Atualmente, sou fundador da <strong>Genobit</strong>, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como <strong>Nextflow Ambassador</strong>, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.</p>
-<hr>
-<section id="interesses" class="level3">
-<h3 data-anchor-id="interesses">Interesses</h3>
-<ul>
-<li>Bioinformática e Biologia Computacional</li>
-<li>Genômica e Variant Calling</li>
-<li>Pipelines de Análise de Dados (Nextflow, Snakemake)</li>
-<li>Empreendedorismo em Biotecnologia</li>
-</ul>
-</section>
-<section id="educação" class="level3">
-<h3 data-anchor-id="educação">Educação</h3>
-<ul>
-<li><strong>Doutorado em Ciências Farmacêuticas</strong> | Unicentro (Em andamento)</li>
-<li><strong>MBA em Data Science &amp; Analytics</strong> | USP/Esalq (Em andamento)</li>
-<li><strong>Mestrado em Microbiologia</strong> | Universidade Estadual de Londrina (UEL)</li>
-</ul>
-
-
-</section>
-</main> 
+</div> 
   <hr class="about-sep">
    <div class="about-links">
   <a href="https://portal.genobit.net" class="about-link" rel="" target="">
     <i class="bi bi-globe"></i>
-     <span class="about-link-text">Acessar Portal GAIA (Genobit)</span>
+     <span class="about-link-text">Portal GAIA (Genobit)</span>
   </a>
   <a href="mailto:matlucfalco@gmail.com" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
@@ -187,7 +366,7 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-github"></i>
      <span class="about-link-text">GitHub</span>
   </a>
-  <a href="https://linkedin.com/in/mateusfalco" class="about-link" rel="" target="">
+  <a href="https://www.linkedin.com/in/mateusfalco/" class="about-link" rel="" target="">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
@@ -199,11 +378,80 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-mortarboard"></i>
      <span class="about-link-text">Google Scholar</span>
   </a>
+  <a href="/cv-mateus-falco.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-earmark-person"></i>
+     <span class="about-link-text">CV (PDF)</span>
+  </a>
 </div>
 </div>
- <!-- /main -->
+
+<section id="interesses" class="level2 section-title">
+<h2 class="section-title" data-anchor-id="interesses">Interesses</h2>
+<div class="tag-cloud">
+<p><span class="tag"><i class="bi bi-cpu"></i> Bioinformática</span> <span class="tag"><i class="bi bi-diagram-2"></i> Biologia Computacional</span> <span class="tag"><i class="bi bi-bezier2"></i> Genômica e Variant Calling</span> <span class="tag"><i class="bi bi-bug"></i> Metagenômica</span> <span class="tag"><i class="bi bi-diagram-3"></i> Nextflow e Snakemake</span> <span class="tag"><i class="bi bi-cloud"></i> Computação em Nuvem</span> <span class="tag"><i class="bi bi-bar-chart"></i> Ciência de Dados</span> <span class="tag"><i class="bi bi-lightbulb"></i> Empreendedorismo em Biotecnologia</span></p>
+</div>
+</section>
+<section id="destaques" class="level2 section-title">
+<h2 class="section-title" data-anchor-id="destaques">Destaques</h2>
+<div class="grid highlights">
+<section id="genobit" class="level4 g-col-12 g-col-md-4 highlight-card">
+<h4 data-anchor-id="genobit"><i class="bi bi-rocket-takeoff"></i> Genobit</h4>
+<p>Startup de bioinformática incubada na INTEG/Unicentro.</p>
+<p><a href="./projetos.html">Ver projetos ›</a></p>
+</section>
+<section id="publicação-recente" class="level4 g-col-12 g-col-md-4 highlight-card">
+<h4 data-anchor-id="publicação-recente"><i class="bi bi-journal-text"></i> Publicação recente</h4>
+<p><em>Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics</em> — Brazilian Archives of Biology and Technology, 2026.</p>
+<p><a href="./publicacoes.html">Ver publicações ›</a></p>
+</section>
+<section id="nextflow-ambassador" class="level4 g-col-12 g-col-md-4 highlight-card">
+<h4 data-anchor-id="nextflow-ambassador"><i class="bi bi-diagram-3"></i> Nextflow Ambassador</h4>
+<p>Promovendo pipelines reprodutíveis na comunidade.</p>
+<p><a href="./comunidade.html">Ver comunidade ›</a></p>
+</section>
+</div>
+</section>
+<section id="formação" class="level2 section-title">
+<h2 class="section-title" data-anchor-id="formação">Formação</h2>
+<div class="timeline">
+<div class="timeline-item current">
+<p><span class="timeline-date">Em andamento</span></p>
+<p><strong>Doutorado em Ciências Farmacêuticas</strong><br> Universidade Estadual do Centro-Oeste (Unicentro)</p>
+</div>
+<div class="timeline-item current">
+<p><span class="timeline-date">Em andamento</span></p>
+<p><strong>MBA em Data Science &amp; Analytics</strong><br> USP/Esalq</p>
+</div>
+<div class="timeline-item">
+<p><span class="timeline-date">Concluído</span></p>
+<p><strong>Mestrado em Microbiologia</strong><br> Universidade Estadual de Londrina (UEL)</p>
+</div>
+<div class="timeline-item">
+<p><span class="timeline-date">Concluído</span></p>
+<p><strong>Graduação em Biomedicina</strong><br> Universidade Estadual de Londrina (UEL)</p>
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

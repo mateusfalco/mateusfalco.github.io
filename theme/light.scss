@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+@import "genobit";
+
+$primary: #00916f; // verde Genobit escurecido para contraste AA em texto
+$link-color: $primary;
+$navbar-bg: $genobit-navy;
+$footer-bg: #f6f8fa;
+$body-bg: #ffffff;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");

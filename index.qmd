@@ -1,14 +1,16 @@
 ---
 title: "Mateus Falco"
 pagetitle: "Bioinformática e Genômica"
-image-alt: "Foto de Mateus Falco"
 image: profile.jpg
+image-alt: "Foto de Mateus Falco"
 about:
+  id: sobre
   template: jolla
   image-shape: round
+  image-width: 14em
   links:
     - icon: globe
-      text: Acessar Portal GAIA (Genobit)
+      text: Portal GAIA (Genobit)
       href: https://portal.genobit.net
     - icon: envelope
       text: Email
@@ -18,14 +20,25 @@ about:
       href: https://github.com/mateusfalco
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/mateusfalco
+      href: https://www.linkedin.com/in/mateusfalco/
     - icon: person-badge
       text: ORCID
       href: https://orcid.org/0000-0002-0210-2612
     - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?user=mQW0aJYAAAAJ
+    - icon: file-earmark-person
+      text: CV (PDF)
+      href: cv-mateus-falco.pdf
 ---
+
+::: {#sobre}
+
+[Bioinformática · Genômica · Pipelines escaláveis]{.hero-tagline}
+
+[[<i class="bi bi-diagram-3"></i> Nextflow Ambassador]{.badge-pill}
+[<i class="bi bi-rocket-takeoff"></i> Fundador da Genobit]{.badge-pill}
+[<i class="bi bi-mortarboard"></i> Doutorando · Unicentro]{.badge-pill}]{.hero-badges}
 
 Sou Cientista Biomédico com especialização em microbiologia e biologia molecular, atualmente doutorando em Ciências Farmacêuticas pela Unicentro e cursando MBA em Data Science & Analytics pela USP/Esalq. No âmbito acadêmico, atuo como professor de imunologia clínica, bacteriologia clínica e bioquímica clínica no Centro Universitário Uniguairacá.
 
@@ -33,17 +46,78 @@ Minha pesquisa e atuação técnica são focadas em **bioinformática, biologia 
 
 Atualmente, sou fundador da **Genobit**, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como **Nextflow Ambassador**, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.
 
----
+:::
 
-### Interesses
+## Interesses {.section-title}
 
-* Bioinformática e Biologia Computacional
-* Genômica e Variant Calling
-* Pipelines de Análise de Dados (Nextflow, Snakemake)
-* Empreendedorismo em Biotecnologia
+::: {.tag-cloud}
+[<i class="bi bi-cpu"></i> Bioinformática]{.tag}
+[<i class="bi bi-diagram-2"></i> Biologia Computacional]{.tag}
+[<i class="bi bi-bezier2"></i> Genômica e Variant Calling]{.tag}
+[<i class="bi bi-bug"></i> Metagenômica]{.tag}
+[<i class="bi bi-diagram-3"></i> Nextflow e Snakemake]{.tag}
+[<i class="bi bi-cloud"></i> Computação em Nuvem]{.tag}
+[<i class="bi bi-bar-chart"></i> Ciência de Dados]{.tag}
+[<i class="bi bi-lightbulb"></i> Empreendedorismo em Biotecnologia]{.tag}
+:::
 
-### Educação
+## Destaques {.section-title}
 
-* **Doutorado em Ciências Farmacêuticas** | Unicentro (Em andamento)
-* **MBA em Data Science & Analytics** | USP/Esalq (Em andamento)
-* **Mestrado em Microbiologia** | Universidade Estadual de Londrina (UEL)
+::: {.grid .highlights}
+
+::: {.g-col-12 .g-col-md-4 .highlight-card}
+#### <i class="bi bi-rocket-takeoff"></i> Genobit
+Startup de bioinformática incubada na INTEG/Unicentro.
+
+[Ver projetos ›](projetos.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .highlight-card}
+#### <i class="bi bi-journal-text"></i> Publicação recente
+*Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics* — Brazilian Archives of Biology and Technology, 2026.
+
+[Ver publicações ›](publicacoes.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .highlight-card}
+#### <i class="bi bi-diagram-3"></i> Nextflow Ambassador
+Promovendo pipelines reprodutíveis na comunidade.
+
+[Ver comunidade ›](comunidade.qmd)
+:::
+
+:::
+
+## Formação {.section-title}
+
+::: {.timeline}
+
+::: {.timeline-item .current}
+[Em andamento]{.timeline-date}
+
+**Doutorado em Ciências Farmacêuticas**<br>
+Universidade Estadual do Centro-Oeste (Unicentro)
+:::
+
+::: {.timeline-item .current}
+[Em andamento]{.timeline-date}
+
+**MBA em Data Science & Analytics**<br>
+USP/Esalq
+:::
+
+::: {.timeline-item}
+[Concluído]{.timeline-date}
+
+**Mestrado em Microbiologia**<br>
+Universidade Estadual de Londrina (UEL)
+:::
+
+::: {.timeline-item}
+[Concluído]{.timeline-date}
+
+**Graduação em Biomedicina**<br>
+Universidade Estadual de Londrina (UEL)
+:::
+
+:::

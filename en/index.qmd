@@ -1,0 +1,90 @@
+---
+title: "Mateus Falco"
+pagetitle: "Bioinformatics and Genomics"
+lang: en
+open-graph:
+  description: "Biomedical Scientist, PhD candidate in Pharmaceutical Sciences and founder of Genobit. Bioinformatics, computational biology and genomics."
+twitter-card:
+  description: "Biomedical Scientist, PhD candidate in Pharmaceutical Sciences and founder of Genobit. Bioinformatics, computational biology and genomics."
+image: ../profile.jpg
+image-alt: "Photo of Mateus Falco"
+about:
+  id: about
+  template: jolla
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: translate
+      text: Português
+      href: ../index.qmd
+    - icon: globe
+      text: GAIA Portal (Genobit)
+      href: https://portal.genobit.net
+    - icon: envelope
+      text: Email
+      href: mailto:matlucfalco@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/mateusfalco
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mateusfalco/
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-0210-2612
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=mQW0aJYAAAAJ
+---
+
+::: {#about}
+
+[Bioinformatics · Genomics · Scalable pipelines]{.hero-tagline}
+
+[[<i class="bi bi-diagram-3"></i> Nextflow Ambassador]{.badge-pill}
+[<i class="bi bi-rocket-takeoff"></i> Founder of Genobit]{.badge-pill}
+[<i class="bi bi-mortarboard"></i> PhD candidate · Unicentro]{.badge-pill}]{.hero-badges}
+
+I am a Biomedical Scientist specialized in microbiology and molecular biology, currently a PhD candidate in Pharmaceutical Sciences at Unicentro (Brazil) and enrolled in an MBA in Data Science & Analytics at USP/Esalq. I teach clinical immunology, clinical bacteriology and clinical biochemistry at Centro Universitário Uniguairacá.
+
+My research and technical work focus on **bioinformatics, computational biology and genomics**. I am especially interested in building and optimizing scalable workflows for complex biological data, and in developing pipelines for tumor genomics and variant calling.
+
+I am the founder of **Genobit**, a startup providing computational solutions for biological data, and a **Nextflow Ambassador**, helping the community adopt this essential tool for reproducible bioinformatics.
+
+:::
+
+## Education {.section-title}
+
+::: {.timeline}
+
+::: {.timeline-item .current}
+[Ongoing]{.timeline-date}
+
+**PhD in Pharmaceutical Sciences**<br>
+Universidade Estadual do Centro-Oeste (Unicentro)
+:::
+
+::: {.timeline-item .current}
+[Ongoing]{.timeline-date}
+
+**MBA in Data Science & Analytics**<br>
+University of São Paulo (USP/Esalq)
+:::
+
+::: {.timeline-item}
+[Completed]{.timeline-date}
+
+**MSc in Microbiology**<br>
+State University of Londrina (UEL)
+:::
+
+::: {.timeline-item}
+[Completed]{.timeline-date}
+
+**BSc in Biomedicine**<br>
+State University of Londrina (UEL)
+:::
+
+:::
+
+Publications are listed on the [publications page](../publicacoes.qmd) and on [Google Scholar](https://scholar.google.com/citations?user=mQW0aJYAAAAJ).

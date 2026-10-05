@@ -1,0 +1,27 @@
+# Cartões da página "Projetos". Campos: title, description, categories, path (link), image (opcional).
+- title: Genobit — Soluções em Dados Biológicos
+  subtitle: Fundador
+  description: >-
+    Startup de bioinformática incubada na INTEG/Unicentro que une biotecnologia,
+    computação em nuvem e inovação para tornar a análise de dados biológicos,
+    como a metagenômica, mais acessível, rápida e eficiente.
+  categories: [Startup, Metagenômica, Cloud]
+  path: https://portal.genobit.net
+  image: assets/projetos/genobit.svg
+- title: Portal GAIA
+  subtitle: Genobit
+  description: >-
+    Plataforma da Genobit para análise de dados biológicos, com pipelines
+    reprodutíveis executados na nuvem.
+  categories: [Plataforma, Nextflow, Cloud]
+  path: https://portal.genobit.net
+  image: assets/projetos/gaia.svg
+- title: Programa Genomas Paraná
+  subtitle: NAPI Genômica · Unicentro · IPEC
+  description: >-
+    Atuação em bancada (wetlab) e bioinformática no Instituto de Pesquisa em
+    Câncer (IPEC) de Guarapuava, com sequenciamento de nova geração e análise
+    de dados genômicos.
+  categories: [Genômica, NGS, Câncer]
+  path: https://www.unicentro.br
+  image: assets/projetos/genomas-parana.svg

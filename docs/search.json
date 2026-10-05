@@ -4,7 +4,28 @@
     "href": "publicacoes.html",
     "title": "Artigos e Publicações",
     "section": "",
-    "text": "Abaixo estão listados meus principais trabalhos acadêmicos e pesquisas na área de bioinformática, genômica e biologia molecular.\nA lista completa e atualizada está disponível no Google Scholar e no ORCID."
+    "text": "A lista completa e atualizada está no Google Scholar e no ORCID.\n\n\n2026\n\n\n\n  Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics\n  \n  Falco, M. L.; Ribeiro, R. R.; Carraro, E.; Figueiredo, D. L. A.; Khalil, N. M.\n  \n    Brazilian Archives of Biology and Technology, v. 69, e26260111\n  \n  \n    \n     Google Scholar\n    \n  \n\n\n\n  Genetic variants in 8-oxoguanine DNA glycosylase 1 (OGG1) and X-ray repair cross-complementing protein 1 (XRCC1) and non-genetic factors are associated with bladder cancer susceptibility and prognosis in a Brazilian population\n  \n  de Souza Rodrigues, M. R.; da Silva, I. M.; Leite Vacario, B. G.; Oliveira Rocha, L. M.; Ikeda Kawasaki, J. A.; Porto, R. E. S.; Fuganti, P. E.; Koike, A.; Falco, M. L.; Guembarovski, R. L.; et al.\n  \n    Journal of Toxicology and Environmental Health, Part A, 1–13\n  \n  \n    \n     Google Scholar\n    \n  \n\n\n\n\n2025\n\n\n\n  Unraveling Zika virus-induced cell death pathways in eradicating embryonal central nervous system tumors\n  \n  Rosa-Ribeiro, R.; Falco, M. L.; de Souza, J. S.; Okamoto, O. K.; Weinlich, R.\n  \n    Neuroscience\n  \n  \n    \n     Google Scholar\n    \n  \n\n\n\n  GLRX2 polymorphism and oxidative stress levels impact urothelial bladder cancer outcomes\n  \n  Silva, I. M.; Vacario, B. G. L.; Maraslis, F. T.; Koike, A.; Simonato, M. E. P.; Coradi, C.; Fernandes, A. J.; Simão, A. N. C.; Lozovoy, M. A. B.; Barcelos, G. R. M.; Falco, M. L.; Losi, R.\n  \n    Scientific Reports, v. 15, n. 1, 34041\n  \n  \n     DOI\n    \n    \n  \n\n\n\n  Mechanisms of anesthetic-induced immune dysregulation\n  \n  Fagundes, T. R.; Coradi, C.; Sotomayor, M. R.; Campos, A. G. H.; da Silva, L. C. F.; Ferneda, H. A.; da Silva Pereira Junior, W.; Bellandi, G. B.; Simonato, M. E. P.; Steffanello, V. V.; et al.\n  \n    Anesthesiology and Perioperative Science, v. 3, n. 3, 37\n  \n  \n    \n     Google Scholar\n    \n  \n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "comunidade.html",
+    "href": "comunidade.html",
+    "title": "Comunidade, Palestras e Eventos",
+    "section": "",
+    "text": "Promovo e apoio a adoção do Nextflow e do ecossistema nf-core para análises reprodutíveis e escaláveis em bioinformática.\nPrograma de Embaixadores ›\n\n\n\nEquipe de organização do festival de divulgação científica em Guarapuava.\nEquipe Guarapuava ›\n\n\n\nMembro do grupo de estudantes de biologia computacional do Brasil (ISCB Student Council).\nMembros ›"
+  },
+  {
+    "objectID": "comunidade.html#comunidades",
+    "href": "comunidade.html#comunidades",
+    "title": "Comunidade, Palestras e Eventos",
+    "section": "",
+    "text": "Promovo e apoio a adoção do Nextflow e do ecossistema nf-core para análises reprodutíveis e escaláveis em bioinformática.\nPrograma de Embaixadores ›\n\n\n\nEquipe de organização do festival de divulgação científica em Guarapuava.\nEquipe Guarapuava ›\n\n\n\nMembro do grupo de estudantes de biologia computacional do Brasil (ISCB Student Council).\nMembros ›"
+  },
+  {
+    "objectID": "comunidade.html#palestras-e-cursos",
+    "href": "comunidade.html#palestras-e-cursos",
+    "title": "Comunidade, Palestras e Eventos",
+    "section": "Palestras e cursos",
+    "text": "Palestras e cursos\n\nEm breve."
   },
   {
     "objectID": "about.html",
@@ -14,10 +35,66 @@
     "text": "About this site"
   },
   {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Mateus Falco",
+    "section": "",
+    "text": "Bioinformatics · Genomics · Scalable pipelines\n Nextflow Ambassador  Founder of Genobit  PhD candidate · Unicentro\nI am a Biomedical Scientist specialized in microbiology and molecular biology, currently a PhD candidate in Pharmaceutical Sciences at Unicentro (Brazil) and enrolled in an MBA in Data Science & Analytics at USP/Esalq. I teach clinical immunology, clinical bacteriology and clinical biochemistry at Centro Universitário Uniguairacá.\nMy research and technical work focus on bioinformatics, computational biology and genomics. I am especially interested in building and optimizing scalable workflows for complex biological data, and in developing pipelines for tumor genomics and variant calling.\nI am the founder of Genobit, a startup providing computational solutions for biological data, and a Nextflow Ambassador, helping the community adopt this essential tool for reproducible bioinformatics.\n \n  \n   \n  \n    \n     Português\n  \n  \n    \n     GAIA Portal (Genobit)\n  \n  \n    \n     Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID\n  \n  \n    \n     Google Scholar"
+  },
+  {
+    "objectID": "en/index.html#education",
+    "href": "en/index.html#education",
+    "title": "Mateus Falco",
+    "section": "Education",
+    "text": "Education\n\n\nOngoing\nPhD in Pharmaceutical Sciences Universidade Estadual do Centro-Oeste (Unicentro)\n\n\nOngoing\nMBA in Data Science & Analytics University of São Paulo (USP/Esalq)\n\n\nCompleted\nMSc in Microbiology State University of Londrina (UEL)\n\n\nCompleted\nBSc in Biomedicine State University of Londrina (UEL)\n\n\nPublications are listed on the publications page and on Google Scholar."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Bem-vindo ao blog\n\n\n\nNotícias\n\n\n\nO que você vai encontrar por aqui.\n\n\n\n\n\n5 de out. de 2026\n\n\nMateus Falco\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "posts/bem-vindo/index.html",
+    "href": "posts/bem-vindo/index.html",
+    "title": "Bem-vindo ao blog",
+    "section": "",
+    "text": "Este é o espaço onde vou compartilhar tutoriais, notas e experiências sobre bioinformática, Nextflow, genômica e ciência de dados.\nOs posts são escritos em Quarto, então os exemplos de código em R, Python ou Bash podem ser executados e reproduzidos.\nPara acompanhar as novidades, assine o feed RSS."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mateus Falco",
     "section": "",
-    "text": "Sou Cientista Biomédico com especialização em microbiologia e biologia molecular, atualmente doutorando em Ciências Farmacêuticas pela Unicentro e cursando MBA em Data Science & Analytics pela USP/Esalq. No âmbito acadêmico, atuo como professor de imunologia clínica, bacteriologia clínica e bioquímica clínica no Centro Universitário Uniguairacá.\nMinha pesquisa e atuação técnica são focadas em bioinformática, biologia computacional e genômica. Tenho grande interesse na construção e otimização de fluxos de trabalho escaláveis para análise de dados biológicos complexos, bem como no desenvolvimento de pipelines para genômica tumoral e variant calling.\nAtualmente, sou fundador da Genobit, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como Nextflow Ambassador, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.\n\n\nInteresses\n\nBioinformática e Biologia Computacional\nGenômica e Variant Calling\nPipelines de Análise de Dados (Nextflow, Snakemake)\nEmpreendedorismo em Biotecnologia\n\n\n\nEducação\n\nDoutorado em Ciências Farmacêuticas | Unicentro (Em andamento)\nMBA em Data Science & Analytics | USP/Esalq (Em andamento)\nMestrado em Microbiologia | Universidade Estadual de Londrina (UEL)"
+    "text": "Bioinformática · Genômica · Pipelines escaláveis\n Nextflow Ambassador  Fundador da Genobit  Doutorando · Unicentro\nSou Cientista Biomédico com especialização em microbiologia e biologia molecular, atualmente doutorando em Ciências Farmacêuticas pela Unicentro e cursando MBA em Data Science & Analytics pela USP/Esalq. No âmbito acadêmico, atuo como professor de imunologia clínica, bacteriologia clínica e bioquímica clínica no Centro Universitário Uniguairacá.\nMinha pesquisa e atuação técnica são focadas em bioinformática, biologia computacional e genômica. Tenho grande interesse na construção e otimização de fluxos de trabalho escaláveis para análise de dados biológicos complexos, bem como no desenvolvimento de pipelines para genômica tumoral e variant calling.\nAtualmente, sou fundador da Genobit, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como Nextflow Ambassador, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.\n \n  \n   \n  \n    \n     Portal GAIA (Genobit)\n  \n  \n    \n     Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     ORCID\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     CV (PDF)"
+  },
+  {
+    "objectID": "index.html#interesses",
+    "href": "index.html#interesses",
+    "title": "Mateus Falco",
+    "section": "Interesses",
+    "text": "Interesses\n\n Bioinformática  Biologia Computacional  Genômica e Variant Calling  Metagenômica  Nextflow e Snakemake  Computação em Nuvem  Ciência de Dados  Empreendedorismo em Biotecnologia"
+  },
+  {
+    "objectID": "index.html#destaques",
+    "href": "index.html#destaques",
+    "title": "Mateus Falco",
+    "section": "Destaques",
+    "text": "Destaques\n\n\n Genobit\nStartup de bioinformática incubada na INTEG/Unicentro.\nVer projetos ›\n\n\n Publicação recente\nAbsolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics — Brazilian Archives of Biology and Technology, 2026.\nVer publicações ›\n\n\n Nextflow Ambassador\nPromovendo pipelines reprodutíveis na comunidade.\nVer comunidade ›"
+  },
+  {
+    "objectID": "index.html#formação",
+    "href": "index.html#formação",
+    "title": "Mateus Falco",
+    "section": "Formação",
+    "text": "Formação\n\n\nEm andamento\nDoutorado em Ciências Farmacêuticas Universidade Estadual do Centro-Oeste (Unicentro)\n\n\nEm andamento\nMBA em Data Science & Analytics USP/Esalq\n\n\nConcluído\nMestrado em Microbiologia Universidade Estadual de Londrina (UEL)\n\n\nConcluído\nGraduação em Biomedicina Universidade Estadual de Londrina (UEL)"
+  },
+  {
+    "objectID": "projetos.html",
+    "href": "projetos.html",
+    "title": "Projetos",
+    "section": "",
+    "text": "Iniciativas, plataformas e projetos de pesquisa nos quais atuo. Os códigos públicos estão no meu GitHub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenobit — Soluções em Dados Biológicos\n\n\nFundador\n\n\n\nStartup\n\nMetagenômica\n\nCloud\n\n\n\nStartup de bioinformática incubada na INTEG/Unicentro que une biotecnologia, computação em nuvem e inovação para tornar a análise de dados biológicos, como a metagenômica…\n\n\n\n\n\n\n\n\n\n\n\n\nPortal GAIA\n\n\nGenobit\n\n\n\nPlataforma\n\nNextflow\n\nCloud\n\n\n\nPlataforma da Genobit para análise de dados biológicos, com pipelines reprodutíveis executados na nuvem.\n\n\n\n\n\n\n\n\n\n\n\n\nPrograma Genomas Paraná\n\n\nNAPI Genômica · Unicentro · IPEC\n\n\n\nGenômica\n\nNGS\n\nCâncer\n\n\n\nAtuação em bancada (wetlab) e bioinformática no Instituto de Pesquisa em Câncer (IPEC) de Guarapuava, com sequenciamento de nova geração e análise de dados genômicos.\n\n\n\n\n\nSem itens correspondentes"
   }
 ]

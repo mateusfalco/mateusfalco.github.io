@@ -1,17 +1,15 @@
 ---
 title: "Artigos e Publicações"
+description: "Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular."
+listing:
+  id: publicacoes
+  contents: publicacoes.yml
+  template: publicacoes.ejs
+  sort: false
+  page-size: 100
 ---
 
-Abaixo estão listados meus principais trabalhos acadêmicos e pesquisas na área de bioinformática, genômica e biologia molecular.
+A lista completa e atualizada está no [Google Scholar](https://scholar.google.com/citations?user=mQW0aJYAAAAJ) e no [ORCID](https://orcid.org/0000-0002-0210-2612).
 
-A lista completa e atualizada está disponível no [Google Scholar](https://scholar.google.com/citations?user=mQW0aJYAAAAJ) e no [ORCID](https://orcid.org/0000-0002-0210-2612).
-
-<!--
-Modelo para adicionar uma publicação (remova este comentário ao preencher):
-
-### 2026
-
-* **Título do artigo**
-  * *Nome da Revista*, 2026.
-  * [DOI](https://doi.org/...) | [PDF](arquivos/artigo.pdf)
--->
+::: {#publicacoes}
+:::

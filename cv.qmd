@@ -1,0 +1,45 @@
+---
+title: "Mateus Lucas Falco"
+subtitle: "Cientista Biomédico · Bioinformática e Genômica"
+format:
+  typst:
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 1.8cm
+    fontsize: 10pt
+    output-file: cv-mateus-falco.pdf
+---
+
+[matlucfalco@gmail.com](mailto:matlucfalco@gmail.com) · [mateusfalco.github.io](https://mateusfalco.github.io) · ORCID [0000-0002-0210-2612](https://orcid.org/0000-0002-0210-2612) · [linkedin.com/in/mateusfalco](https://www.linkedin.com/in/mateusfalco/)
+
+## Resumo
+
+Cientista Biomédico com especialização em microbiologia e biologia molecular, doutorando em Ciências Farmacêuticas (Unicentro) e MBA em Data Science & Analytics (USP/Esalq). Atuação em bioinformática, biologia computacional e genômica, com foco em fluxos de trabalho escaláveis, genômica tumoral e variant calling. Fundador da Genobit e Nextflow Ambassador.
+
+## Formação
+
+- **Doutorado em Ciências Farmacêuticas** — Universidade Estadual do Centro-Oeste (Unicentro). Em andamento.
+- **MBA em Data Science & Analytics** — USP/Esalq. Em andamento.
+- **Mestrado em Microbiologia** — Universidade Estadual de Londrina (UEL).
+- **Graduação em Biomedicina** — Universidade Estadual de Londrina (UEL).
+
+## Atuação
+
+- **Fundador** — Genobit, Soluções em Dados Biológicos (startup incubada na INTEG/Unicentro).
+- **Professor** — Centro Universitário Uniguairacá: imunologia clínica, bacteriologia clínica e bioquímica clínica.
+- **Bioinformática e bancada** — Programa Genomas Paraná (NAPI Genômica, Unicentro, IPEC Guarapuava).
+- **Nextflow Ambassador** — Seqera / comunidade Nextflow.
+
+## Competências
+
+Nextflow, nf-core, Snakemake · NGS, variant calling, metagenômica · R, Python, Bash · Linux, HPC e computação em nuvem · Ciência de dados e estatística.
+
+## Publicações selecionadas
+
+- **Falco, M. L.**; Ribeiro, R. R.; Carraro, E.; Figueiredo, D. L. A.; Khalil, N. M. Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics. *Brazilian Archives of Biology and Technology*, v. 69, e26260111, 2026.
+- de Souza Rodrigues, M. R.; da Silva, I. M.; Leite Vacario, B. G.; …; Koike, A.; **Falco, M. L.**; Guembarovski, R. L.; et al. Genetic variants in 8-oxoguanine DNA glycosylase 1 (OGG1) and X-ray repair cross-complementing protein 1 (XRCC1) and non-genetic factors are associated with bladder cancer susceptibility and prognosis in a Brazilian population. *Journal of Toxicology and Environmental Health, Part A*, p. 1–13, 2026.
+- Rosa-Ribeiro, R.; **Falco, M. L.**; de Souza, J. S.; Okamoto, O. K.; Weinlich, R. Unraveling Zika virus-induced cell death pathways in eradicating embryonal central nervous system tumors. *Neuroscience*, 2025.
+- Silva, I. M.; Vacario, B. G. L.; …; Barcelos, G. R. M.; **Falco, M. L.**; Losi, R. GLRX2 polymorphism and oxidative stress levels impact urothelial bladder cancer outcomes. *Scientific Reports*, v. 15, 34041, 2025. doi:10.1038/s41598-025-12587-2
+
+Lista completa: [Google Scholar](https://scholar.google.com/citations?user=mQW0aJYAAAAJ).

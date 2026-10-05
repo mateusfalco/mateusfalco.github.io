@@ -1,0 +1,15 @@
+---
+title: "Projetos"
+description: "Projetos em bioinformática, genômica e soluções computacionais para dados biológicos."
+listing:
+  contents: projetos.yml
+  type: grid
+  grid-columns: 3
+  fields: [image, title, subtitle, description, categories]
+  sort: false
+  categories: true
+  image-height: 160px
+---
+
+Iniciativas, plataformas e projetos de pesquisa nos quais atuo.
+Os códigos públicos estão no meu [GitHub](https://github.com/mateusfalco).

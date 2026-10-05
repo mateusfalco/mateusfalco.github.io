@@ -1,0 +1,14 @@
+---
+title: "Bem-vindo ao blog"
+description: "O que você vai encontrar por aqui."
+date: 2026-10-05
+categories: [Notícias]
+---
+
+Este é o espaço onde vou compartilhar tutoriais, notas e experiências sobre
+**bioinformática**, **Nextflow**, **genômica** e **ciência de dados**.
+
+Os posts são escritos em [Quarto](https://quarto.org), então os exemplos de código
+em R, Python ou Bash podem ser executados e reproduzidos.
+
+Para acompanhar as novidades, assine o [feed RSS](../../blog.xml).

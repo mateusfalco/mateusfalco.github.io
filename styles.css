@@ -1,4 +1,4 @@
-/* Assinatura "Powered by GENOBit." no rodapé */
+/* ===== Rodapé: assinatura "Powered by GENOBit." ===== */
 .genobit {
   font-weight: bold;
 }
@@ -12,12 +12,168 @@
   font-size: 18px;
 }
 
-/* Listas da página inicial: o template "jolla" centraliza o texto,
-   o que afasta os marcadores do conteúdo. Mantém o bloco centralizado
-   e o texto alinhado à esquerda. */
+/* ===== Página inicial (template jolla) ===== */
 .quarto-about-jolla main ul {
   display: table;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+
+.hero-tagline {
+  display: block;
+  margin: -.5rem 0 1rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: var(--bs-primary);
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.badge-pill,
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .3rem .8rem;
+  border-radius: 999px;
+  font-size: .9rem;
+}
+
+.badge-pill {
+  background: rgba(0, 184, 141, .12);
+  color: var(--bs-primary);
+  font-weight: 600;
+}
+
+.section-title {
+  margin-top: 3rem;
+  text-align: center;
+  border-bottom: none;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .6rem;
+}
+
+.tag {
+  border: 1px solid var(--bs-border-color);
+}
+
+/* Cartões (destaques e comunidade) */
+.highlight-card,
+.community-card {
+  text-align: left;
+  padding: 1.25rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: .75rem;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.highlight-card:hover,
+.community-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.highlight-card h4,
+.community-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.highlight-card i,
+.community-card h3 i {
+  color: #ff7a00;
+}
+
+.quarto-about-jolla .about-links {
+  justify-content: center;
+}
+
+/* ===== Linha do tempo (formação) ===== */
+.timeline {
+  position: relative;
+  max-width: 36rem;
+  margin: 1rem auto 0;
+  padding-left: 1.75rem;
+  border-left: 2px solid var(--bs-border-color);
+  text-align: left;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.75rem - 7px);
+  top: .35rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--bs-body-bg);
+  border: 2px solid var(--bs-primary);
+}
+
+.timeline-item.current::before {
+  background: #ff7a00;
+  border-color: #ff7a00;
+}
+
+.timeline-item p {
+  margin-bottom: 0;
+}
+
+.timeline-date {
+  display: block;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  opacity: .7;
+}
+
+/* ===== Publicações ===== */
+.pub-year {
+  margin-top: 2rem;
+  color: var(--bs-primary);
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(127, 127, 127, .25);
+}
+
+.pub-title {
+  font-weight: 600;
+}
+
+.pub-authors,
+.pub-venue {
+  font-size: .92rem;
+  opacity: .85;
+}
+
+.pub-links {
+  display: flex;
+  gap: .5rem;
+  margin-top: .5rem;
 }
