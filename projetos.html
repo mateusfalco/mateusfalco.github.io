@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.">
+<meta name="description" content="Projetos em bioinformática, genômica e soluções computacionais para dados biológicos.">
 
-<title>Artigos e Publicações – Mateus Falco</title>
+<title>Projetos – Mateus Falco</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -84,20 +84,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publicacoes .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-highlight','listing-venue','listing-details','listing-year','listing-date','listing-doi','listing-url','listing-scholar','listing-pdf','listing-note','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-highlight","listing-venue","listing-details","listing-year","listing-date","listing-doi","listing-url","listing-scholar","listing-pdf","listing-note","listing-type"],
+      searchColumns: ["listing-title","listing-subtitle","listing-description","listing-categories","listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publicacoes'] = new List('listing-publicacoes', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -143,17 +143,17 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Artigos e Publicações – Mateus Falco">
-<meta property="og:description" content="Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.">
-<meta property="og:image" content="https://mateusfalco.github.io/profile.jpg">
+<meta property="og:title" content="Projetos – Mateus Falco">
+<meta property="og:description" content="Projetos em bioinformática, genômica e soluções computacionais para dados biológicos.">
+<meta property="og:image" content="https://mateusfalco.github.io/assets/projetos/genobit.svg">
 <meta property="og:site_name" content="Mateus Falco">
-<meta name="twitter:title" content="Artigos e Publicações – Mateus Falco">
-<meta name="twitter:description" content="Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.">
-<meta name="twitter:image" content="https://mateusfalco.github.io/profile.jpg">
+<meta name="twitter:title" content="Projetos – Mateus Falco">
+<meta name="twitter:description" content="Projetos em bioinformática, genômica e soluções computacionais para dados biológicos.">
+<meta name="twitter:image" content="https://mateusfalco.github.io/assets/projetos/genobit.svg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -337,11 +337,11 @@ window.Quarto = {
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projetos.html"> 
+    <a class="nav-link active" href="./projetos.html" aria-current="page"> 
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publicacoes.html" aria-current="page"> 
+    <a class="nav-link" href="./publicacoes.html"> 
 <span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
@@ -390,19 +390,20 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QyVDMyVBMm5jZXI=">Câncer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xvdWQ=">Cloud <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VuJUMzJUI0bWljYQ==">Genômica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWV0YWdlbiVDMyVCNG1pY2E=">Metagenômica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV4dGZsb3c=">Nextflow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TkdT">NGS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxhdGFmb3JtYQ==">Plataforma <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RhcnR1cA==">Startup <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Artigos e Publicações</h1>
+<h1 class="title">Projetos</h1>
 </div>
 
 <div>
   <div class="description">
-    Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.
+    Projetos em bioinformática, genômica e soluções computacionais para dados biológicos.
   </div>
 </div>
 
@@ -419,95 +420,100 @@ window.Quarto = {
 </header>
 
 
-<p>A lista completa e atualizada está no <a href="https://scholar.google.com/citations?user=mQW0aJYAAAAJ">Google Scholar</a> e no <a href="https://orcid.org/0000-0002-0210-2612">ORCID</a>.</p>
-<div id="listing-publicacoes" class="quarto-listing quarto-listing-container-custom">
+<p>Iniciativas, plataformas e projetos de pesquisa nos quais atuo. Os códigos públicos estão no meu <a href="https://github.com/mateusfalco">GitHub</a>.</p>
 
-<h3 class="pub-year anchored">2026</h3>
-<ol class="pub-list">
 
-<li class="pub-item" data-index="0" data-listing-date-sort="1767225600000">
-  <div class="pub-title">Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics</div>
-  
-  <div class="pub-authors"><strong>Falco, M. L.</strong>; Ribeiro, R. R.; Carraro, E.; Figueiredo, D. L. A.; Khalil, N. M.</div>
-  <div class="pub-venue">
-    <em>Brazilian Archives of Biology and Technology</em>, v. 69, e26260111
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Absolute+Microbial+Abundance+and+Causal+Inference+as+Foundations+for+a+One+Health+Roadmap+in+Colorectal+Cancer+Diagnostics"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
 
-<li class="pub-item" data-index="1" data-listing-date-sort="1767225600000">
-  <div class="pub-title">Genetic variants in 8-oxoguanine DNA glycosylase 1 (OGG1) and X-ray repair cross-complementing protein 1 (XRCC1) and non-genetic factors are associated with bladder cancer susceptibility and prognosis in a Brazilian population</div>
-  
-  <div class="pub-authors">de Souza Rodrigues, M. R.; da Silva, I. M.; Leite Vacario, B. G.; Oliveira Rocha, L. M.; Ikeda Kawasaki, J. A.; Porto, R. E. S.; Fuganti, P. E.; Koike, A.; <strong>Falco, M. L.</strong>; Guembarovski, R. L.; et al.</div>
-  <div class="pub-venue">
-    <em>Journal of Toxicology and Environmental Health, Part A</em>, 1–13
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Genetic+variants+in+8-oxoguanine+DNA+glycosylase+1+%28OGG1%29+and+X-ray+repair+cross-complementing+protein+1+%28XRCC1%29+and+non-genetic+factors+are+associated+with+bladder+cancer+susceptibility+and+prognosis+in+a+Brazilian+population"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
 
-</ol>
-
-<h3 class="pub-year anchored">2025</h3>
-<ol class="pub-list">
-
-<li class="pub-item" data-index="2" data-listing-date-sort="1735689600000">
-  <div class="pub-title">Unraveling Zika virus-induced cell death pathways in eradicating embryonal central nervous system tumors</div>
-  
-  <div class="pub-authors">Rosa-Ribeiro, R.; <strong>Falco, M. L.</strong>; de Souza, J. S.; Okamoto, O. K.; Weinlich, R.</div>
-  <div class="pub-venue">
-    <em>Neuroscience</em>
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Unraveling+Zika+virus-induced+cell+death+pathways+in+eradicating+embryonal+central+nervous+system+tumors"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
-
-<li class="pub-item" data-index="3" data-listing-date-sort="1735689600000">
-  <div class="pub-title">GLRX2 polymorphism and oxidative stress levels impact urothelial bladder cancer outcomes</div>
-  
-  <div class="pub-authors">Silva, I. M.; Vacario, B. G. L.; Maraslis, F. T.; Koike, A.; Simonato, M. E. P.; Coradi, C.; Fernandes, A. J.; Simão, A. N. C.; Lozovoy, M. A. B.; Barcelos, G. R. M.; <strong>Falco, M. L.</strong>; Losi, R.</div>
-  <div class="pub-venue">
-    <em>Scientific Reports</em>, v. 15, n. 1, 34041
-  </div>
-  <div class="pub-links">
-    <a class="btn btn-sm btn-outline-primary" href="https://doi.org/10.1038/s41598-025-12587-2"><i class="bi bi-box-arrow-up-right"></i> DOI</a>
-    
-    
-  </div>
-</li>
-
-<li class="pub-item" data-index="4" data-listing-date-sort="1735689600000">
-  <div class="pub-title">Mechanisms of anesthetic-induced immune dysregulation</div>
-  
-  <div class="pub-authors">Fagundes, T. R.; Coradi, C.; Sotomayor, M. R.; Campos, A. G. H.; da Silva, L. C. F.; Ferneda, H. A.; da Silva Pereira Junior, W.; Bellandi, G. B.; Simonato, M. E. P.; Steffanello, V. V.; et al.</div>
-  <div class="pub-venue">
-    <em>Anesthesiology and Perioperative Science</em>, v. 3, n. 3, 37
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Mechanisms+of+anesthetic-induced+immune+dysregulation"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
-
-</ol>
-<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="U3RhcnR1cCUyQ01ldGFnZW4lQzMlQjRtaWNhJTJDQ2xvdWQ=">
+<a href="https://portal.genobit.net" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="assets/projetos/genobit.svg" class="thumbnail-image card-img" style="height: 160px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Genobit — Soluções em Dados Biológicos
+</h5>
+<div class="card-subtitle listing-subtitle">
+Fundador
 </div>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('U3RhcnR1cA=='); return false;">Startup</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('TWV0YWdlbiVDMyVCNG1pY2E='); return false;">Metagenômica</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWQ='); return false;">Cloud</div>
 
-</main> <!-- /main -->
+</div>
+<div class="card-text listing-description delink">
+<p>Startup de bioinformática incubada na INTEG/Unicentro que une biotecnologia, computação em nuvem e inovação para tornar a análise de dados biológicos, como a metagenômica…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UGxhdGFmb3JtYSUyQ05leHRmbG93JTJDQ2xvdWQ=">
+<a href="https://portal.genobit.net" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="assets/projetos/gaia.svg" class="thumbnail-image card-img" style="height: 160px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Portal GAIA
+</h5>
+<div class="card-subtitle listing-subtitle">
+Genobit
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGxhdGFmb3JtYQ=='); return false;">Plataforma</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TmV4dGZsb3c='); return false;">Nextflow</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWQ='); return false;">Cloud</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Plataforma da Genobit para análise de dados biológicos, com pipelines reprodutíveis executados na nuvem.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="R2VuJUMzJUI0bWljYSUyQ05HUyUyQ0MlQzMlQTJuY2Vy">
+<a href="https://www.unicentro.br" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="assets/projetos/genomas-parana.svg" class="thumbnail-image card-img" style="height: 160px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Programa Genomas Paraná
+</h5>
+<div class="card-subtitle listing-subtitle">
+NAPI Genômica · Unicentro · IPEC
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuJUMzJUI0bWljYQ=='); return false;">Genômica</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TkdT'); return false;">NGS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QyVDMyVBMm5jZXI='); return false;">Câncer</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Atuação em bancada (wetlab) e bioinformática no Instituto de Pesquisa em Câncer (IPEC) de Guarapuava, com sequenciamento de nova geração e análise de dados genômicos.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

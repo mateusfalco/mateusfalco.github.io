@@ -1,8 +1,16 @@
 [
   {
-    "listing": "/alem-do-codigo.html",
+    "listing": "/blog.html",
     "items": [
-      "/posts/filosofia-escher/index.html"
+      "/posts/bem-vindo/index.html"
     ]
+  },
+  {
+    "listing": "/projetos.html",
+    "items": []
+  },
+  {
+    "listing": "/publicacoes.html",
+    "items": []
   }
 ]

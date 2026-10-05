@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.">
+<meta name="description" content="Tutoriais e notas sobre bioinformática, Nextflow, genômica e ciência de dados.">
 
-<title>Artigos e Publicações – Mateus Falco</title>
+<title>Blog – Mateus Falco</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -84,20 +84,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publicacoes .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-highlight','listing-venue','listing-details','listing-year','listing-date','listing-doi','listing-url','listing-scholar','listing-pdf','listing-note','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-highlight","listing-venue","listing-details","listing-year","listing-date","listing-doi","listing-url","listing-scholar","listing-pdf","listing-note","listing-type"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publicacoes'] = new List('listing-publicacoes', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -143,17 +143,17 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Artigos e Publicações – Mateus Falco">
-<meta property="og:description" content="Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.">
+<link rel="alternate" type="application/rss+xml" title="Mateus Falco" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – Mateus Falco">
+<meta property="og:description" content="Tutoriais e notas sobre bioinformática, Nextflow, genômica e ciência de dados.">
 <meta property="og:image" content="https://mateusfalco.github.io/profile.jpg">
 <meta property="og:site_name" content="Mateus Falco">
-<meta name="twitter:title" content="Artigos e Publicações – Mateus Falco">
-<meta name="twitter:description" content="Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.">
+<meta name="twitter:title" content="Blog – Mateus Falco">
+<meta name="twitter:description" content="Tutoriais e notas sobre bioinformática, Nextflow, genômica e ciência de dados.">
 <meta name="twitter:image" content="https://mateusfalco.github.io/profile.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -341,7 +341,7 @@ window.Quarto = {
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publicacoes.html" aria-current="page"> 
+    <a class="nav-link" href="./publicacoes.html"> 
 <span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
@@ -349,7 +349,7 @@ window.Quarto = {
 <span class="menu-text">Comunidade</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -387,27 +387,28 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tm90JUMzJUFEY2lhcw==">Notícias <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Artigos e Publicações</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 <div>
   <div class="description">
-    Artigos científicos e trabalhos em bioinformática, genômica e biologia molecular.
+    Tutoriais e notas sobre bioinformática, Nextflow, genômica e ciência de dados.
   </div>
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -419,95 +420,45 @@ window.Quarto = {
 </header>
 
 
-<p>A lista completa e atualizada está no <a href="https://scholar.google.com/citations?user=mQW0aJYAAAAJ">Google Scholar</a> e no <a href="https://orcid.org/0000-0002-0210-2612">ORCID</a>.</p>
-<div id="listing-publicacoes" class="quarto-listing quarto-listing-container-custom">
 
-<h3 class="pub-year anchored">2026</h3>
-<ol class="pub-list">
 
-<li class="pub-item" data-index="0" data-listing-date-sort="1767225600000">
-  <div class="pub-title">Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics</div>
-  
-  <div class="pub-authors"><strong>Falco, M. L.</strong>; Ribeiro, R. R.; Carraro, E.; Figueiredo, D. L. A.; Khalil, N. M.</div>
-  <div class="pub-venue">
-    <em>Brazilian Archives of Biology and Technology</em>, v. 69, e26260111
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Absolute+Microbial+Abundance+and+Causal+Inference+as+Foundations+for+a+One+Health+Roadmap+in+Colorectal+Cancer+Diagnostics"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
 
-<li class="pub-item" data-index="1" data-listing-date-sort="1767225600000">
-  <div class="pub-title">Genetic variants in 8-oxoguanine DNA glycosylase 1 (OGG1) and X-ray repair cross-complementing protein 1 (XRCC1) and non-genetic factors are associated with bladder cancer susceptibility and prognosis in a Brazilian population</div>
-  
-  <div class="pub-authors">de Souza Rodrigues, M. R.; da Silva, I. M.; Leite Vacario, B. G.; Oliveira Rocha, L. M.; Ikeda Kawasaki, J. A.; Porto, R. E. S.; Fuganti, P. E.; Koike, A.; <strong>Falco, M. L.</strong>; Guembarovski, R. L.; et al.</div>
-  <div class="pub-venue">
-    <em>Journal of Toxicology and Environmental Health, Part A</em>, 1–13
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Genetic+variants+in+8-oxoguanine+DNA+glycosylase+1+%28OGG1%29+and+X-ray+repair+cross-complementing+protein+1+%28XRCC1%29+and+non-genetic+factors+are+associated+with+bladder+cancer+susceptibility+and+prognosis+in+a+Brazilian+population"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
 
-</ol>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Tm90JUMzJUFEY2lhcw==" data-listing-date-sort="1791158400000" data-listing-file-modified-sort="1791232864919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+<div class="thumbnail"><a href="./posts/bem-vindo/index.html" class="no-external">
 
-<h3 class="pub-year anchored">2025</h3>
-<ol class="pub-list">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
-<li class="pub-item" data-index="2" data-listing-date-sort="1735689600000">
-  <div class="pub-title">Unraveling Zika virus-induced cell death pathways in eradicating embryonal central nervous system tumors</div>
-  
-  <div class="pub-authors">Rosa-Ribeiro, R.; <strong>Falco, M. L.</strong>; de Souza, J. S.; Okamoto, O. K.; Weinlich, R.</div>
-  <div class="pub-venue">
-    <em>Neuroscience</em>
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Unraveling+Zika+virus-induced+cell+death+pathways+in+eradicating+embryonal+central+nervous+system+tumors"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/bem-vindo/index.html" class="no-external">Bem-vindo ao blog</a>
+</h3>
+<div class="listing-categories">
 
-<li class="pub-item" data-index="3" data-listing-date-sort="1735689600000">
-  <div class="pub-title">GLRX2 polymorphism and oxidative stress levels impact urothelial bladder cancer outcomes</div>
-  
-  <div class="pub-authors">Silva, I. M.; Vacario, B. G. L.; Maraslis, F. T.; Koike, A.; Simonato, M. E. P.; Coradi, C.; Fernandes, A. J.; Simão, A. N. C.; Lozovoy, M. A. B.; Barcelos, G. R. M.; <strong>Falco, M. L.</strong>; Losi, R.</div>
-  <div class="pub-venue">
-    <em>Scientific Reports</em>, v. 15, n. 1, 34041
-  </div>
-  <div class="pub-links">
-    <a class="btn btn-sm btn-outline-primary" href="https://doi.org/10.1038/s41598-025-12587-2"><i class="bi bi-box-arrow-up-right"></i> DOI</a>
-    
-    
-  </div>
-</li>
+<div class="listing-category" onclick="window.quartoListingCategory('Tm90JUMzJUFEY2lhcw=='); return false;">Notícias</div>
 
-<li class="pub-item" data-index="4" data-listing-date-sort="1735689600000">
-  <div class="pub-title">Mechanisms of anesthetic-induced immune dysregulation</div>
-  
-  <div class="pub-authors">Fagundes, T. R.; Coradi, C.; Sotomayor, M. R.; Campos, A. G. H.; da Silva, L. C. F.; Ferneda, H. A.; da Silva Pereira Junior, W.; Bellandi, G. B.; Simonato, M. E. P.; Steffanello, V. V.; et al.</div>
-  <div class="pub-venue">
-    <em>Anesthesiology and Perioperative Science</em>, v. 3, n. 3, 37
-  </div>
-  <div class="pub-links">
-    
-    <a class="btn btn-sm btn-outline-primary" href="https://scholar.google.com/scholar?q=Mechanisms+of+anesthetic-induced+immune+dysregulation"><i class="bi bi-search"></i> Google Scholar</a>
-    
-  </div>
-</li>
-
-</ol>
-<div class="listing-no-matching d-none">Sem itens correspondentes</div>
 </div>
-
-
-
-
-</main> <!-- /main -->
+<div class="delink listing-description"><a href="./posts/bem-vindo/index.html" class="no-external">
+<p>O que você vai encontrar por aqui.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/bem-vindo/index.html" class="no-external">
+<div class="listing-date">
+5 de out. de 2026
+</div>
+<div class="listing-author">
+Mateus Falco
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
