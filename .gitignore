@@ -1,0 +1,13 @@
+# Quarto: cache e saída padrão (o site publicado fica em docs/)
+/.quarto/
+/_site/
+*_files/
+*_cache/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.Rproj.user
+.vscode/
+
+**/*.quarto_ipynb

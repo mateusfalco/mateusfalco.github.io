@@ -1,20 +1,40 @@
 project:
   type: website
-  output-dir: docs # Isso diz ao Quarto para salvar o site pronto na pasta 'docs'
+  output-dir: docs # o GitHub Pages publica a pasta 'docs' (Settings > Pages > branch main /docs)
+
+lang: pt-BR
 
 website:
-  title: "Portfólio | Mateus Falco"
+  title: "Mateus Falco"
+  description: "Cientista Biomédico, doutorando em Ciências Farmacêuticas e fundador da Genobit. Bioinformática, biologia computacional e genômica."
+  site-url: https://mateusfalco.github.io
+  repo-url: https://github.com/mateusfalco/mateusfalco.github.io
+  favicon: profile.jpg
+  image: profile.jpg
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
         text: Início
       - href: publicacoes.qmd
         text: Artigos & Publicações
+    right:
+      - icon: github
+        href: https://github.com/mateusfalco
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/mateusfalco
+        aria-label: LinkedIn
   page-footer:
-    center: "Desenvolvido com [Quarto](https://quarto.org). <br> <div style='font-weight: bold;'>Powered by GENO<span style='color:#00B88D;'>Bit</span><span style='color:#FF7A00; font-size:18px;'>.</span></div>"
+    center: |
+      Desenvolvido com [Quarto](https://quarto.org). <br>
+      <span class="genobit">Powered by GENO<span class="genobit-bit">Bit</span><span class="genobit-dot">.</span></span>
 
 format:
   html:
     theme: flatly
     css: styles.css
     toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
