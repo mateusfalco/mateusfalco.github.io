@@ -7,6 +7,7 @@ externas: o parser cobre o BibTeX exportado pelo Google Scholar, Zotero e ORCID.
 import json
 import re
 import unicodedata
+from urllib.parse import quote_plus
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -66,6 +67,7 @@ def parse_bib(text):
 
 
 def clean(value):
+    value = re.sub(r"\\([ij])(?![a-zA-Z])", r"\1", value)  # \i e \j sem pingo
     value = re.sub(r"\\([`'^~\"=c])\s*\{?(\w)\}?",
                    lambda m: m.group(2) + LATEX_ACCENTS[m.group(1)], value)
     value = value.replace("\\&", "&").replace("--", "–").replace("~", " ")
@@ -77,12 +79,19 @@ def clean(value):
 def format_authors(raw):
     names = []
     for author in re.split(r"\s+and\s+", clean(raw)):
+        if author.lower() == "others":  # lista truncada (comum no Google Scholar)
+            names.append("et al.")
+            continue
         if "," in author:
             last, first = [p.strip() for p in author.split(",", 1)]
         else:
             parts = author.split()
             last, first = parts[-1], " ".join(parts[:-1])
-        initials = " ".join(p[0] + "." for p in re.split(r"[\s.]+", first) if p)
+        # "Beatriz GL" (formato do Scholar) vira "B. G. L."
+        parts = [p for p in re.split(r"[\s.]+", first) if p]
+        parts = [c for p in parts for c in (list(p) if p.isupper() and len(p) <= 3 else [p])]
+        # partículas (da, de, dos...) não viram iniciais
+        initials = " ".join(p[0] + "." for p in parts if p not in ("da", "de", "do", "das", "dos", "e"))
         name = f"{last}, {initials}".strip(", ")
         names.append(name)
     return names
@@ -91,6 +100,8 @@ def format_authors(raw):
 def main():
     items = []
     for e in parse_bib(BIB.read_text(encoding="utf-8")):
+        if e.get("hidden", "").lower() in ("true", "yes", "sim"):
+            continue
         venue = clean(e.get("journal") or e.get("booktitle") or e.get("publisher")
                       or e.get("school") or e.get("howpublished") or "")
         details = ", ".join(x for x in [
@@ -111,11 +122,12 @@ def main():
             "date": f"{clean(e.get('year', '1900'))}-01-01",
             "doi": doi,
             "url": clean(e.get("url", "")) or (f"https://doi.org/{doi}" if doi else ""),
+            "scholar": "https://scholar.google.com/scholar?q=" + quote_plus(clean(e.get("title", ""))),
             "pdf": clean(e.get("pdf", "")),
             "note": clean(e.get("note", "")),
             "type": e["type"],
         })
-    items.sort(key=lambda x: x["year"], reverse=True)
+    items.sort(key=lambda x: x["year"], reverse=True)  # estável: mantém a ordem do .bib no mesmo ano
     # JSON é YAML válido: evita depender do PyYAML
     OUT.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

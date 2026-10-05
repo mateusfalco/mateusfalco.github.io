@@ -16,6 +16,7 @@
   </div>
   <div class="pub-links">
     <% if (item.url) { %><a class="btn btn-sm btn-outline-primary" href="<%= item.url %>"><i class="bi bi-box-arrow-up-right"></i> <%= item.doi ? 'DOI' : 'Link' %></a><% } %>
+    <% if (!item.url) { %><a class="btn btn-sm btn-outline-primary" href="<%= item.scholar %>"><i class="bi bi-search"></i> Google Scholar</a><% } %>
     <% if (item.pdf) { %><a class="btn btn-sm btn-outline-primary" href="<%= item.pdf %>"><i class="bi bi-file-earmark-pdf"></i> PDF</a><% } %>
   </div>
 </li>

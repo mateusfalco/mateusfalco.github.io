@@ -74,7 +74,7 @@ Startup de bioinformática incubada na INTEG/Unicentro.
 
 ::: {.g-col-12 .g-col-md-4 .highlight-card}
 #### <i class="bi bi-journal-text"></i> Publicação recente
-*GLRX2 polymorphism and oxidative stress levels impact urothelial bladder cancer outcomes* — Scientific Reports, 2025.
+*Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics* — Brazilian Archives of Biology and Technology, 2026.
 
 [Ver publicações ›](publicacoes.qmd)
 :::

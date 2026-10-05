@@ -37,6 +37,9 @@ Nextflow, nf-core, Snakemake · NGS, variant calling, metagenômica · R, Python
 
 ## Publicações selecionadas
 
+- **Falco, M. L.**; Ribeiro, R. R.; Carraro, E.; Figueiredo, D. L. A.; Khalil, N. M. Absolute Microbial Abundance and Causal Inference as Foundations for a One Health Roadmap in Colorectal Cancer Diagnostics. *Brazilian Archives of Biology and Technology*, v. 69, e26260111, 2026.
+- de Souza Rodrigues, M. R.; da Silva, I. M.; Leite Vacario, B. G.; …; Koike, A.; **Falco, M. L.**; Guembarovski, R. L.; et al. Genetic variants in 8-oxoguanine DNA glycosylase 1 (OGG1) and X-ray repair cross-complementing protein 1 (XRCC1) and non-genetic factors are associated with bladder cancer susceptibility and prognosis in a Brazilian population. *Journal of Toxicology and Environmental Health, Part A*, p. 1–13, 2026.
+- Rosa-Ribeiro, R.; **Falco, M. L.**; de Souza, J. S.; Okamoto, O. K.; Weinlich, R. Unraveling Zika virus-induced cell death pathways in eradicating embryonal central nervous system tumors. *Neuroscience*, 2025.
 - Silva, I. M.; Vacario, B. G. L.; …; Barcelos, G. R. M.; **Falco, M. L.**; Losi, R. GLRX2 polymorphism and oxidative stress levels impact urothelial bladder cancer outcomes. *Scientific Reports*, v. 15, 34041, 2025. doi:10.1038/s41598-025-12587-2
 
 Lista completa: [Google Scholar](https://scholar.google.com/citations?user=mQW0aJYAAAAJ).
