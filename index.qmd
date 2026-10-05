@@ -1,5 +1,7 @@
 ---
 title: "Mateus Falco"
+pagetitle: "Bioinformática e Genômica"
+image-alt: "Foto de Mateus Falco"
 image: profile.jpg
 about:
   template: jolla
@@ -17,7 +19,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/mateusfalco
-    - icon: clipboard-data
+    - icon: person-badge
       text: ORCID
       href: https://orcid.org/0000-0002-0210-2612
     - icon: mortarboard
@@ -34,12 +36,14 @@ Atualmente, sou fundador da **Genobit**, startup focada em prover soluções com
 ---
 
 ### Interesses
+
 * Bioinformática e Biologia Computacional
 * Genômica e Variant Calling
 * Pipelines de Análise de Dados (Nextflow, Snakemake)
 * Empreendedorismo em Biotecnologia
 
 ### Educação
+
 * **Doutorado em Ciências Farmacêuticas** | Unicentro (Em andamento)
 * **MBA em Data Science & Analytics** | USP/Esalq (Em andamento)
 * **Mestrado em Microbiologia** | Universidade Estadual de Londrina (UEL)

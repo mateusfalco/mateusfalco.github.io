@@ -1,1 +1,23 @@
-/* css styles */
+/* Assinatura "Powered by GENOBit." no rodapé */
+.genobit {
+  font-weight: bold;
+}
+
+.genobit-bit {
+  color: #00b88d;
+}
+
+.genobit-dot {
+  color: #ff7a00;
+  font-size: 18px;
+}
+
+/* Listas da página inicial: o template "jolla" centraliza o texto,
+   o que afasta os marcadores do conteúdo. Mantém o bloco centralizado
+   e o texto alinhado à esquerda. */
+.quarto-about-jolla main ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
