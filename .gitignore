@@ -14,3 +14,4 @@ Thumbs.db
 
 # Gerado a partir de publicacoes.bib (scripts/bib2yml.py)
 /publicacoes.yml
+__pycache__/
