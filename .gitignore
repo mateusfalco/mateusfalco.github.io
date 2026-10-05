@@ -11,3 +11,6 @@ Thumbs.db
 .vscode/
 
 **/*.quarto_ipynb
+
+# Gerado a partir de publicacoes.bib (scripts/bib2yml.py)
+/publicacoes.yml

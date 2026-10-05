@@ -1,0 +1,6 @@
+# Opções aplicadas a todos os posts
+author: Mateus Falco
+toc: true
+title-block-banner: true
+# Congela a saída de código: o post só é reexecutado quando o .qmd mudar
+freeze: true

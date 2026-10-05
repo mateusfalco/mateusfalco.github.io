@@ -7,5 +7,23 @@
   },
   "publicacoes.qmd": {
     "publicacoes.html": "8d521f43"
+  },
+  "cv.qmd": {
+    "cv.typ": "3bd4a664"
+  },
+  "blog.qmd": {
+    "blog.html": "68e4fd61"
+  },
+  "en/index.qmd": {
+    "index.html": "57bec7a5"
+  },
+  "posts/bem-vindo/index.qmd": {
+    "index.html": "cec2925b"
+  },
+  "comunidade.qmd": {
+    "comunidade.html": "5e9d1252"
+  },
+  "projetos.qmd": {
+    "projetos.html": "c373de6a"
   }
 }

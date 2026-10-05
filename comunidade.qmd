@@ -1,0 +1,45 @@
+---
+title: "Comunidade, Palestras e Eventos"
+description: "Atuação em comunidades científicas, divulgação e eventos."
+---
+
+## Comunidades
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .community-card}
+### <i class="bi bi-diagram-3"></i> Nextflow Ambassador
+
+Promovo e apoio a adoção do [Nextflow](https://www.nextflow.io) e do ecossistema nf-core para análises reprodutíveis e escaláveis em bioinformática.
+
+[Programa de Embaixadores ›](https://www.nextflow.io/our_ambassadors.html)
+:::
+
+::: {.g-col-12 .g-col-md-4 .community-card}
+### <i class="bi bi-cup-straw"></i> Pint of Science
+
+Equipe de organização do festival de divulgação científica em Guarapuava.
+
+[Equipe Guarapuava ›](https://pintofscience.com.br/equipe/Guarapuava/)
+:::
+
+::: {.g-col-12 .g-col-md-4 .community-card}
+### <i class="bi bi-people"></i> RSG-Brazil
+
+Membro do grupo de estudantes de biologia computacional do Brasil (ISCB Student Council).
+
+[Membros ›](https://sites.google.com/view/rsg-brazil/sobre-n%C3%B3s/membros-atuais)
+:::
+
+:::
+
+## Palestras e cursos
+
+<!--
+Modelo para adicionar uma palestra, curso ou minicurso:
+
+* **2026** · **Título da palestra** — Nome do evento, Cidade.
+  [Slides](link) | [Vídeo](link)
+-->
+
+Em breve.

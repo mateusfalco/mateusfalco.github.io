@@ -1,0 +1,24 @@
+```{=html}
+<% let year = null; %>
+<% for (const item of items) { %>
+<% if (item.year !== year) { %>
+<% if (year !== null) { %></ol><% } %>
+<% year = item.year; %>
+<h3 class="pub-year anchored"><%= year %></h3>
+<ol class="pub-list">
+<% } %>
+<li class="pub-item" <%= metadataAttrs(item) %>>
+  <div class="pub-title"><%= item.title %></div>
+  <% const me = (item.highlight || '').split('; '); %>
+  <div class="pub-authors"><% item.authors.split('; ').forEach((a, i) => { %><%= i ? '; ' : '' %><% if (me.includes(a)) { %><strong><%= a %></strong><% } else { %><%= a %><% } %><% }) %></div>
+  <div class="pub-venue">
+    <em><%= item.venue %></em><% if (item.details) { %>, <%= item.details %><% } %><% if (item.note) { %> · <%= item.note %><% } %>
+  </div>
+  <div class="pub-links">
+    <% if (item.url) { %><a class="btn btn-sm btn-outline-primary" href="<%= item.url %>"><i class="bi bi-box-arrow-up-right"></i> <%= item.doi ? 'DOI' : 'Link' %></a><% } %>
+    <% if (item.pdf) { %><a class="btn btn-sm btn-outline-primary" href="<%= item.pdf %>"><i class="bi bi-file-earmark-pdf"></i> PDF</a><% } %>
+  </div>
+</li>
+<% } %>
+<% if (year !== null) { %></ol><% } %>
+```

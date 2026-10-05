@@ -1,0 +1,30 @@
+# Renderiza o site e publica na branch gh-pages a cada push na main.
+# Para usar: Settings > Pages > Build and deployment > Source: "Deploy from a branch",
+# branch "gh-pages" / (root). Depois disso a pasta docs/ deixa de ser necessária.
+name: Publicar site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

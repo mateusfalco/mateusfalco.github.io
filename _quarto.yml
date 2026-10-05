@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs # o GitHub Pages publica a pasta 'docs' (Settings > Pages > branch main /docs)
+  # Gera publicacoes.yml a partir de publicacoes.bib antes de cada renderização
+  pre-render: python3 scripts/bib2yml.py
 
 lang: pt-BR
 
@@ -17,15 +19,31 @@ website:
     left:
       - href: index.qmd
         text: Início
+      - href: projetos.qmd
+        text: Projetos
       - href: publicacoes.qmd
-        text: Artigos & Publicações
+        text: Publicações
+      - href: comunidade.qmd
+        text: Comunidade
+      - href: blog.qmd
+        text: Blog
     right:
+      - href: cv-mateus-falco.pdf
+        text: CV
+        icon: file-earmark-person
+        aria-label: Baixar currículo em PDF
+      - href: en/index.qmd
+        text: EN
+        aria-label: English version
       - icon: github
         href: https://github.com/mateusfalco
         aria-label: GitHub
       - icon: linkedin
-        href: https://linkedin.com/in/mateusfalco
+        href: https://www.linkedin.com/in/mateusfalco/
         aria-label: LinkedIn
+      - icon: rss
+        href: blog.xml
+        aria-label: RSS do blog
   page-footer:
     center: |
       Desenvolvido com [Quarto](https://quarto.org). <br>
@@ -33,7 +51,9 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme:
+      light: [flatly, theme/light.scss]
+      dark: [darkly, theme/dark.scss]
     css: styles.css
     toc: false
     smooth-scroll: true

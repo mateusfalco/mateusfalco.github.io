@@ -2,14 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mateusfalco.github.io/publicacoes.html</loc>
-    <lastmod>2026-10-05T19:35:15.725Z</lastmod>
+    <lastmod>2026-10-05T19:54:01.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mateusfalco.github.io/comunidade.html</loc>
+    <lastmod>2026-10-05T19:52:16.507Z</lastmod>
   </url>
   <url>
     <loc>https://mateusfalco.github.io/about.html</loc>
     <lastmod>2026-10-05T19:32:47.217Z</lastmod>
   </url>
   <url>
+    <loc>https://mateusfalco.github.io/en/index.html</loc>
+    <lastmod>2026-10-05T19:54:40.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mateusfalco.github.io/blog.html</loc>
+    <lastmod>2026-10-05T19:52:16.508Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mateusfalco.github.io/posts/bem-vindo/index.html</loc>
+    <lastmod>2026-10-05T19:52:16.512Z</lastmod>
+  </url>
+  <url>
     <loc>https://mateusfalco.github.io/index.html</loc>
-    <lastmod>2026-10-05T19:35:28.011Z</lastmod>
+    <lastmod>2026-10-05T19:52:35.121Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mateusfalco.github.io/projetos.html</loc>
+    <lastmod>2026-10-05T19:51:44.643Z</lastmod>
   </url>
 </urlset>
