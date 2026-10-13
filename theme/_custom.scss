@@ -1,3 +1,7 @@
+// Estilos do site, compartilhados pelos temas claro e escuro.
+// Ficam no tema (e não num .css separado) para entrar no CSS do Bootstrap, cujo
+// nome muda a cada alteração: assim o navegador nunca usa uma versão antiga.
+
 /* ===== Rodapé: assinatura "Powered by GENOBit." ===== */
 .genobit {
   font-weight: bold;
@@ -227,5 +231,27 @@
 @media (max-width: 575.98px) {
   .navbar-brand .brand-tag {
     display: none;
+  }
+}
+
+/* O Quarto define .navbar-title como flex com quebra de linha e corta o que
+   transborda com reticências. Em alguns navegadores/fontes o selo quebrava
+   para a linha de baixo e sumia ("Falco…"). Trava tudo em uma linha. */
+@media (min-width: 576px) {
+  .navbar .navbar-brand-container {
+    flex-shrink: 0;
+    max-width: none;
+  }
+
+  .navbar-brand {
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .navbar-brand .navbar-title {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    white-space: nowrap;
   }
 }
