@@ -2,6 +2,7 @@
 title: "Projetos"
 description: "Projetos em bioinformática, genômica e soluções computacionais para dados biológicos."
 listing:
+  id: projetos
   contents: projetos.yml
   type: grid
   grid-columns: 3
@@ -11,5 +12,70 @@ listing:
   image-height: 160px
 ---
 
-Iniciativas, plataformas e projetos de pesquisa nos quais atuo.
+Pipelines, análises de dados e iniciativas em que atuo, da bancada à interpretação dos resultados.
 Os códigos públicos estão no meu [GitHub](https://github.com/mateusfalco).
+
+::: {#projetos}
+:::
+
+## Experiência em dados ômicos {.section-title}
+
+::: {.omics-grid}
+
+::: {.omics-card}
+[WES]{.omics-tag}
+
+**Sequenciamento de exoma**
+
+Variantes germinativas e somáticas, incluindo análises *tumor-only*.
+:::
+
+::: {.omics-card}
+[RNA-seq]{.omics-tag}
+
+**Transcriptômica**
+
+Quantificação de expressão e expressão diferencial.
+:::
+
+::: {.omics-card}
+[scRNA-seq]{.omics-tag}
+
+**Célula única**
+
+Agrupamento, anotação de tipos celulares e marcadores.
+:::
+
+::: {.omics-card}
+[ChIP-seq]{.omics-tag}
+
+**Interação proteína–DNA**
+
+Identificação de picos e sítios de ligação.
+:::
+
+::: {.omics-card}
+[Epigenômica]{.omics-tag}
+
+**Regulação epigenética**
+
+Marcas e perfis epigenéticos associados à expressão gênica.
+:::
+
+::: {.omics-card}
+[ONT]{.omics-tag}
+
+**Oxford Nanopore**
+
+Leituras longas para montagem, variantes e metagenômica.
+:::
+
+::: {.omics-card}
+[16S | ITS]{.omics-tag}
+
+**Metagenômica de amplicons**
+
+Composição e diversidade de comunidades microbianas.
+:::
+
+:::
