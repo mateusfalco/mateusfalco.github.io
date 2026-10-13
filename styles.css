@@ -185,3 +185,29 @@
   height: 38px;
   margin-right: .55rem;
 }
+
+/* Marca da navbar: "Falco" + selo "BioData" */
+.navbar-brand .navbar-title {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+.navbar-brand .brand-tag {
+  margin-left: .45rem;
+  padding-left: .45rem;
+  border-left: 1px solid rgba(255, 255, 255, .35);
+  font-size: .72em;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  vertical-align: .12em;
+  color: #00b88d;
+}
+
+/* Em celulares a navbar mostra só o logo e "Falco" (sem espaço para o selo) */
+@media (max-width: 575.98px) {
+  .navbar-brand .brand-tag {
+    display: none;
+  }
+}
