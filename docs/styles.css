@@ -177,3 +177,11 @@
   gap: .5rem;
   margin-top: .5rem;
 }
+
+/* ===== Logo da navbar ===== */
+.navbar-brand .navbar-logo {
+  max-height: 38px;
+  width: 38px;
+  height: 38px;
+  margin-right: .55rem;
+}

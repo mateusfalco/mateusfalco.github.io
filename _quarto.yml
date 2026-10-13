@@ -20,6 +20,8 @@ website:
   open-graph: true
   twitter-card: true
   navbar:
+    logo: assets/logo.svg
+    logo-alt: "Logo: falcão"
     left:
       - href: index.qmd
         text: Início
