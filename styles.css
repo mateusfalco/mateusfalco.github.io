@@ -220,7 +220,7 @@
   font-size: .56em;
   font-weight: 400;
   letter-spacing: .47em;
-  color: rgba(255, 255, 255, .75);
+  color: #ff9a3d; /* laranja Genobit, clareado para contraste na navbar */
 }
 
 /* Em celulares a navbar mostra só o logo e "Falco" (sem espaço para o selo) */
