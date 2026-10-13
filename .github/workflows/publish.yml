@@ -1,6 +1,6 @@
 # Renderiza o site e publica na branch gh-pages a cada push na main.
-# Para usar: Settings > Pages > Build and deployment > Source: "Deploy from a branch",
-# branch "gh-pages" / (root). Depois disso a pasta docs/ deixa de ser necessária.
+# Não usa nenhuma action (nem do GitHub nem de terceiros), para funcionar mesmo
+# com políticas restritivas em Settings > Actions > General > Actions permissions.
 name: Publicar site
 
 on:
@@ -15,16 +15,29 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+env:
+  QUARTO_VERSION: 1.10.18
+
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: quarto-dev/quarto-actions/setup@v2
-
-      - uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
+      - name: Clonar o repositório
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
+          git checkout "${GITHUB_SHA}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Instalar o Quarto
+        run: |
+          curl -fsSL -o quarto.deb \
+            "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb"
+          sudo dpkg -i quarto.deb
+          rm quarto.deb
+          quarto --version
+
+      - name: Renderizar e publicar na gh-pages
+        run: quarto publish gh-pages --no-prompt --no-browser

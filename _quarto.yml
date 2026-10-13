@@ -20,6 +20,10 @@ website:
   open-graph: true
   twitter-card: true
   navbar:
+    # Texto da navbar (o título do site, usado nas abas e no Google, continua "Mateus Falco")
+    title: 'Falco<span class="brand-tag"><span class="brand-tag-main">BioData</span><span class="brand-tag-sub">Analyst</span></span>'
+    logo: assets/logo.svg
+    logo-alt: "Logo: falcão"
     left:
       - href: index.qmd
         text: Início
