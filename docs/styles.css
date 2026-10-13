@@ -186,7 +186,7 @@
   margin-right: .55rem;
 }
 
-/* Marca da navbar: "Falco" + selo "BioData" */
+/* Marca da navbar: "Falco" + selo em duas linhas "BIODATA / ANALYST" */
 .navbar-brand .navbar-title {
   color: #ffffff;
   font-weight: 700;
@@ -194,15 +194,33 @@
 }
 
 .navbar-brand .brand-tag {
-  margin-left: .45rem;
-  padding-left: .45rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  margin-left: .5rem;
+  padding-left: .5rem;
   border-left: 1px solid rgba(255, 255, 255, .35);
+  font-size: 1rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.navbar-brand .brand-tag-main {
   font-size: .72em;
   font-weight: 600;
   letter-spacing: .14em;
-  text-transform: uppercase;
-  vertical-align: .12em;
   color: #00b88d;
+}
+
+/* Espaçamento calculado para "ANALYST" ter a mesma largura de "BIODATA" */
+.navbar-brand .brand-tag-sub {
+  margin-top: .18em;
+  margin-right: -.47em;
+  font-size: .56em;
+  font-weight: 400;
+  letter-spacing: .47em;
+  color: rgba(255, 255, 255, .75);
 }
 
 /* Em celulares a navbar mostra só o logo e "Falco" (sem espaço para o selo) */
