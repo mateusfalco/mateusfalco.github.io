@@ -255,3 +255,72 @@
     white-space: nowrap;
   }
 }
+
+/* ===== Texto justificado ===== */
+/* Parágrafos de texto corrido ficam justificados a partir de 576px; a
+   hifenização automática (lang pt-BR/en) evita espaços grandes entre palavras.
+   No celular a coluna é estreita demais e o texto fica alinhado à esquerda. */
+@media (min-width: 576px) {
+  main.content p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+}
+
+/* Colunas estreitas (cartões, linha do tempo, listas) ficam alinhadas à
+   esquerda: justificar texto curto abre "rios" de espaço. */
+main.content .highlight-card p,
+main.content .community-card p,
+main.content .omics-card p,
+main.content .timeline p,
+main.content .quarto-grid-item p,
+main.content .pub-item p,
+main.content li p {
+  text-align: left;
+  hyphens: manual;
+  -webkit-hyphens: manual;
+}
+
+/* ===== Projetos ===== */
+/* Cartões sem link (path) não devem parecer clicáveis */
+.quarto-grid-link[href=""] {
+  pointer-events: none;
+  cursor: default;
+}
+
+.omics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.omics-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--bs-border-color);
+  border-top: 3px solid #00b88d;
+  border-radius: .75rem;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.omics-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.omics-card p {
+  margin-bottom: .35rem;
+  font-size: .92rem;
+}
+
+.omics-tag {
+  display: inline-block;
+  padding: .1rem .55rem;
+  border-radius: 999px;
+  background: rgba(255, 122, 0, .12);
+  color: #d96500;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}

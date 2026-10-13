@@ -1,4 +1,43 @@
-# Cartões da página "Projetos". Campos: title, description, categories, path (link), image (opcional).
+# Cartões da página "Projetos". Campos: title, subtitle, description, categories,
+# path (link, opcional) e image. A ordem deste arquivo é a ordem na página.
+- title: Pipeline Tumor-Only para WES
+  subtitle: Desenvolvimento de pipeline
+  description: >-
+    Pipeline para identificação de variantes somáticas em sequenciamento de
+    exoma completo (WES) de amostras tumorais sem par normal: controle de
+    qualidade, alinhamento, chamada e filtragem de variantes e anotação.
+  categories: [Pipeline, WES, Oncologia, Variant calling]
+  image: assets/projetos/tumor-only-wes.svg
+- title: Câncer de Mama
+  subtitle: Análise de dados
+  description: >-
+    Processamento, análise e interpretação de dados ômicos de câncer de mama,
+    da avaliação de qualidade à identificação de alterações de interesse.
+  categories: [Oncologia, Genômica]
+  image: assets/projetos/cancer-mama.svg
+- title: Melanoma
+  subtitle: Análise de dados
+  description: >-
+    Processamento, análise e interpretação de dados ômicos de melanoma,
+    da avaliação de qualidade à identificação de alterações de interesse.
+  categories: [Oncologia, Genômica]
+  image: assets/projetos/melanoma.svg
+- title: Câncer de Próstata
+  subtitle: Análise de dados
+  description: >-
+    Processamento, análise e interpretação de dados ômicos de câncer de
+    próstata, da avaliação de qualidade à identificação de alterações de
+    interesse.
+  categories: [Oncologia, Genômica]
+  image: assets/projetos/cancer-prostata.svg
+- title: Metagenômica (16S | ITS)
+  subtitle: Análise de dados
+  description: >-
+    Caracterização de comunidades bacterianas (16S rRNA) e fúngicas (ITS) por
+    sequenciamento de amplicons: controle de qualidade, classificação
+    taxonômica e análises de diversidade e composição.
+  categories: [Metagenômica, Microbioma]
+  image: assets/projetos/metagenomica.svg
 - title: Genobit — Soluções em Dados Biológicos
   subtitle: Fundador
   description: >-
@@ -22,6 +61,6 @@
     Atuação em bancada (wetlab) e bioinformática no Instituto de Pesquisa em
     Câncer (IPEC) de Guarapuava, com sequenciamento de nova geração e análise
     de dados genômicos.
-  categories: [Genômica, NGS, Câncer]
+  categories: [Genômica, NGS, Oncologia]
   path: https://www.unicentro.br
   image: assets/projetos/genomas-parana.svg

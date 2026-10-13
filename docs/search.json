@@ -95,6 +95,13 @@
     "href": "projetos.html",
     "title": "Projetos",
     "section": "",
-    "text": "Iniciativas, plataformas e projetos de pesquisa nos quais atuo. Os códigos públicos estão no meu GitHub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenobit — Soluções em Dados Biológicos\n\n\nFundador\n\n\n\nStartup\n\nMetagenômica\n\nCloud\n\n\n\nStartup de bioinformática incubada na INTEG/Unicentro que une biotecnologia, computação em nuvem e inovação para tornar a análise de dados biológicos, como a metagenômica…\n\n\n\n\n\n\n\n\n\n\n\n\nPortal GAIA\n\n\nGenobit\n\n\n\nPlataforma\n\nNextflow\n\nCloud\n\n\n\nPlataforma da Genobit para análise de dados biológicos, com pipelines reprodutíveis executados na nuvem.\n\n\n\n\n\n\n\n\n\n\n\n\nPrograma Genomas Paraná\n\n\nNAPI Genômica · Unicentro · IPEC\n\n\n\nGenômica\n\nNGS\n\nCâncer\n\n\n\nAtuação em bancada (wetlab) e bioinformática no Instituto de Pesquisa em Câncer (IPEC) de Guarapuava, com sequenciamento de nova geração e análise de dados genômicos.\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Pipelines, análises de dados e iniciativas em que atuo, da bancada à interpretação dos resultados. Os códigos públicos estão no meu GitHub."
+  },
+  {
+    "objectID": "projetos.html#experiência-em-dados-ômicos",
+    "href": "projetos.html#experiência-em-dados-ômicos",
+    "title": "Projetos",
+    "section": "Experiência em dados ômicos",
+    "text": "Experiência em dados ômicos\n\n\nWES\nSequenciamento de exoma\nVariantes germinativas e somáticas, incluindo análises tumor-only.\n\n\nRNA-seq\nTranscriptômica\nQuantificação de expressão e expressão diferencial.\n\n\nscRNA-seq\nCélula única\nAgrupamento, anotação de tipos celulares e marcadores.\n\n\nChIP-seq\nInteração proteína–DNA\nIdentificação de picos e sítios de ligação.\n\n\nEpigenômica\nRegulação epigenética\nMarcas e perfis epigenéticos associados à expressão gênica.\n\n\nONT\nOxford Nanopore\nLeituras longas para montagem, variantes e metagenômica.\n\n\nADMIXTURE\nAncestralidade genética\nEstimativa de proporções de ancestralidade a partir de genótipos.\n\n\n16S | ITS\nMetagenômica de amplicons\nComposição e diversidade de comunidades microbianas."
   }
 ]
