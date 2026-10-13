@@ -3,6 +3,10 @@ project:
   output-dir: docs # o GitHub Pages publica a pasta 'docs' (Settings > Pages > branch main /docs)
   # Gera publicacoes.yml a partir de publicacoes.bib antes de cada renderização
   pre-render: python3 scripts/bib2yml.py
+  # Arquivos referenciados só em HTML cru (não detectados automaticamente)
+  resources:
+    - assets/favicon.svg
+    - assets/apple-touch-icon.png
 
 lang: pt-BR
 
@@ -11,7 +15,7 @@ website:
   description: "Cientista Biomédico, doutorando em Ciências Farmacêuticas e fundador da Genobit. Bioinformática, biologia computacional e genômica."
   site-url: https://mateusfalco.github.io
   repo-url: https://github.com/mateusfalco/mateusfalco.github.io
-  favicon: profile.jpg
+  favicon: assets/favicon-32.png
   image: profile.jpg
   open-graph: true
   twitter-card: true
@@ -58,3 +62,8 @@ format:
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
+    # Favicon vetorial (declarado depois do PNG para ter prioridade) e ícone do iOS
+    include-in-header:
+      text: |
+        <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+        <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">

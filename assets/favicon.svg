@@ -1,0 +1,15 @@
+<!-- Ícone do site: falcão (gênero Falco) nas cores da Genobit -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#14213d"/>
+  <!-- cabeça e pescoço, com penas na nuca -->
+  <path fill="#ffffff" d="M8 60 L13 51 L7 48 L14 41 L9 36 L17 30 C19 20 28 11 40 10 L48 11 L54 16 L49 30 L44 36 C40 42 39 51 41 60 Z"/>
+  <!-- bico em gancho -->
+  <path fill="#ff7a00" d="M46 12 L53 14 C59 16 63 22 62 29 C61 33 59 35 56 37 C57 34 57 31 55 29 L49 31 Z"/>
+  <!-- sobrancelha marcada -->
+  <path fill="#14213d" d="M30 17 L54 15 L50 20 L40 22 Z"/>
+  <!-- olho -->
+  <circle cx="45.5" cy="23.5" r="3" fill="#ff7a00"/>
+  <circle cx="46" cy="23.5" r="1.5" fill="#14213d"/>
+  <!-- listra malar em lágrima (verde) -->
+  <path fill="#00b88d" d="M40 25 C42 27 44 28 46 28 C45 33 43 38 40 41 C39 36 39 30 40 25 Z"/>
+</svg>
