@@ -71,6 +71,14 @@ Leituras longas para montagem, variantes e metagenômica.
 :::
 
 ::: {.omics-card}
+[ADMIXTURE]{.omics-tag}
+
+**Ancestralidade genética**
+
+Estimativa de proporções de ancestralidade a partir de genótipos.
+:::
+
+::: {.omics-card}
 [16S | ITS]{.omics-tag}
 
 **Metagenômica de amplicons**
