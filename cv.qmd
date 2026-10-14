@@ -29,7 +29,7 @@ Cientista Biomédico com especialização em microbiologia e biologia molecular,
 - **Fundador** — Genobit, Soluções em Dados Biológicos (startup incubada na INTEG/Unicentro). [www.genobit.net](https://www.genobit.net) · [contato@genobit.net](mailto:contato@genobit.net)
 - **Professor** — Centro Universitário Uniguairacá: imunologia clínica, bacteriologia clínica e bioquímica clínica.
 - **Bioinformática e bancada** — Programa Genomas Paraná (NAPI Genômica, Unicentro, IPEC Guarapuava).
-- **Nextflow Ambassador** — Seqera / comunidade Nextflow.
+- **Nextflow Ambassador** — Seqera / comunidade Nextflow. [nextflow.io/our_ambassadors](https://www.nextflow.io/our_ambassadors.html)
 
 ## Competências
 

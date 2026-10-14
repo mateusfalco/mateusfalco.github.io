@@ -351,3 +351,12 @@ main.content .tag-cloud p {
 strong > a {
   font-weight: inherit;
 }
+
+/* Selos da página inicial que são links mantêm a aparência de selo */
+.hero-badges a {
+  text-decoration: none;
+}
+
+.hero-badges a:hover .badge-pill {
+  background: rgba(0, 184, 141, .22);
+}
