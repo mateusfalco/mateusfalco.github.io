@@ -9,8 +9,11 @@ about:
   image-shape: round
   image-width: 14em
   links:
+    - icon: building
+      text: Genobit
+      href: https://www.genobit.net
     - icon: globe
-      text: Portal GAIA (Genobit)
+      text: Portal GAIA
       href: https://portal.genobit.net
     - icon: envelope
       text: Email
@@ -44,7 +47,7 @@ Sou Cientista Biomédico com especialização em microbiologia e biologia molecu
 
 Minha pesquisa e atuação técnica são focadas em **bioinformática, biologia computacional e genômica**. Tenho grande interesse na construção e otimização de fluxos de trabalho escaláveis para análise de dados biológicos complexos, bem como no desenvolvimento de pipelines para genômica tumoral e variant calling.
 
-Atualmente, sou fundador da **Genobit**, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como **Nextflow Ambassador**, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.
+Atualmente, sou fundador da **[Genobit](https://www.genobit.net)**, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como **Nextflow Ambassador**, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.
 
 :::
 
@@ -69,7 +72,8 @@ Atualmente, sou fundador da **Genobit**, startup focada em prover soluções com
 #### <i class="bi bi-rocket-takeoff"></i> Genobit
 Startup de bioinformática incubada na INTEG/Unicentro.
 
-[Ver projetos ›](projetos.qmd)
+[www.genobit.net ›](https://www.genobit.net)<br>
+[<i class="bi bi-envelope"></i> contato@genobit.net](mailto:contato@genobit.net)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .highlight-card}

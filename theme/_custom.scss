@@ -7,6 +7,17 @@
   font-weight: bold;
 }
 
+a.genobit,
+a.genobit:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.genobit-contact {
+  margin-left: .25rem;
+  font-size: .9em;
+}
+
 .genobit-bit {
   color: #00b88d;
 }
@@ -276,7 +287,8 @@ main.content .omics-card p,
 main.content .timeline p,
 main.content .quarto-grid-item p,
 main.content .pub-item p,
-main.content li p {
+main.content li p,
+main.content .tag-cloud p {
   text-align: left;
   hyphens: manual;
   -webkit-hyphens: manual;
@@ -323,4 +335,19 @@ main.content li p {
   font-size: .78rem;
   font-weight: 700;
   letter-spacing: .04em;
+}
+
+/* Tags de "Interesses": o Quarto as coloca dentro de um <p>; o próprio <p>
+   vira o contêiner flex para centralizar e espaçar as tags por igual. */
+.tag-cloud p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .6rem;
+  margin: 0;
+}
+
+/* Link dentro de negrito continua em negrito (ex.: **[Genobit](...)**) */
+strong > a {
+  font-weight: inherit;
 }

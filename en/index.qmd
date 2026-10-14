@@ -17,8 +17,11 @@ about:
     - icon: translate
       text: Português
       href: ../index.qmd
+    - icon: building
+      text: Genobit
+      href: https://www.genobit.net
     - icon: globe
-      text: GAIA Portal (Genobit)
+      text: GAIA Portal
       href: https://portal.genobit.net
     - icon: envelope
       text: Email
@@ -49,7 +52,7 @@ I am a Biomedical Scientist specialized in microbiology and molecular biology, c
 
 My research and technical work focus on **bioinformatics, computational biology and genomics**. I am especially interested in building and optimizing scalable workflows for complex biological data, and in developing pipelines for tumor genomics and variant calling.
 
-I am the founder of **Genobit**, a startup providing computational solutions for biological data, and a **Nextflow Ambassador**, helping the community adopt this essential tool for reproducible bioinformatics.
+I am the founder of **[Genobit](https://www.genobit.net)**, a startup providing computational solutions for biological data, and a **Nextflow Ambassador**, helping the community adopt this essential tool for reproducible bioinformatics.
 
 :::
 

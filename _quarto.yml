@@ -55,7 +55,8 @@ website:
   page-footer:
     center: |
       Desenvolvido com [Quarto](https://quarto.org). <br>
-      <span class="genobit">Powered by GENO<span class="genobit-bit">Bit</span><span class="genobit-dot">.</span></span>
+      <a class="genobit" href="https://www.genobit.net">Powered by GENO<span class="genobit-bit">Bit</span><span class="genobit-dot">.</span></a>
+      <span class="genobit-contact">· <a href="mailto:contato@genobit.net">contato@genobit.net</a></span>
 
 format:
   html:
