@@ -44,7 +44,7 @@ about:
 
 [Bioinformatics · Genomics · Scalable pipelines]{.hero-tagline}
 
-[[<i class="bi bi-diagram-3"></i> Nextflow Ambassador]{.badge-pill}
+[[[<i class="bi bi-diagram-3"></i> Nextflow Ambassador]{.badge-pill}](https://www.nextflow.io/our_ambassadors.html)
 [<i class="bi bi-rocket-takeoff"></i> Founder of Genobit]{.badge-pill}
 [<i class="bi bi-mortarboard"></i> PhD candidate · Unicentro]{.badge-pill}]{.hero-badges}
 
@@ -52,7 +52,7 @@ I am a Biomedical Scientist specialized in microbiology and molecular biology, c
 
 My research and technical work focus on **bioinformatics, computational biology and genomics**. I am especially interested in building and optimizing scalable workflows for complex biological data, and in developing pipelines for tumor genomics and variant calling.
 
-I am the founder of **[Genobit](https://www.genobit.net)**, a startup providing computational solutions for biological data, and a **Nextflow Ambassador**, helping the community adopt this essential tool for reproducible bioinformatics.
+I am the founder of **[Genobit](https://www.genobit.net)**, a startup providing computational solutions for biological data, and a **[Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html)**, helping the community adopt this essential tool for reproducible bioinformatics.
 
 :::
 

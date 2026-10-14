@@ -39,7 +39,7 @@ about:
 
 [Bioinformática · Genômica · Pipelines escaláveis]{.hero-tagline}
 
-[[<i class="bi bi-diagram-3"></i> Nextflow Ambassador]{.badge-pill}
+[[[<i class="bi bi-diagram-3"></i> Nextflow Ambassador]{.badge-pill}](https://www.nextflow.io/our_ambassadors.html)
 [<i class="bi bi-rocket-takeoff"></i> Fundador da Genobit]{.badge-pill}
 [<i class="bi bi-mortarboard"></i> Doutorando · Unicentro]{.badge-pill}]{.hero-badges}
 
@@ -47,7 +47,7 @@ Sou Cientista Biomédico com especialização em microbiologia e biologia molecu
 
 Minha pesquisa e atuação técnica são focadas em **bioinformática, biologia computacional e genômica**. Tenho grande interesse na construção e otimização de fluxos de trabalho escaláveis para análise de dados biológicos complexos, bem como no desenvolvimento de pipelines para genômica tumoral e variant calling.
 
-Atualmente, sou fundador da **[Genobit](https://www.genobit.net)**, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como **Nextflow Ambassador**, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.
+Atualmente, sou fundador da **[Genobit](https://www.genobit.net)**, startup focada em prover soluções computacionais para dados biológicos. Além disso, atuo ativamente como **[Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html)**, promovendo e auxiliando a comunidade na adoção desta ferramenta essencial para a reprodutibilidade na bioinformática.
 
 :::
 
@@ -87,6 +87,7 @@ Startup de bioinformática incubada na INTEG/Unicentro.
 #### <i class="bi bi-diagram-3"></i> Nextflow Ambassador
 Promovendo pipelines reprodutíveis na comunidade.
 
+[Programa de Embaixadores ›](https://www.nextflow.io/our_ambassadors.html)<br>
 [Ver comunidade ›](comunidade.qmd)
 :::
 
