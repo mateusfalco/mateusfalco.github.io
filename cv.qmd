@@ -15,7 +15,7 @@ format:
 
 ## Resumo
 
-Cientista Biomédico com especialização em microbiologia e biologia molecular, doutorando em Ciências Farmacêuticas (Unicentro) e MBA em Data Science & Analytics (USP/Esalq). Atuação em bioinformática, biologia computacional e genômica, com foco em fluxos de trabalho escaláveis, genômica tumoral e variant calling. Fundador da Genobit e Nextflow Ambassador.
+Cientista Biomédico com especialização em microbiologia e biologia molecular, doutorando em Ciências Farmacêuticas (Unicentro) e MBA em Data Science & Analytics (USP/Esalq). TT5 em Bioinformática no Laboratório de Ontogenia e Epigenética (Departamento de Farmácia, Unifesp). Atuação em bioinformática, biologia computacional e genômica, com foco em fluxos de trabalho escaláveis, genômica tumoral e variant calling. Fundador da Genobit e Nextflow Ambassador.
 
 ## Formação
 
@@ -28,9 +28,9 @@ Cientista Biomédico com especialização em microbiologia e biologia molecular,
 
 - **TT5 · Treinamento Técnico nível 5 em Bioinformática** — Laboratório de Ontogenia e Epigenética, Departamento de Farmácia, Universidade Federal de São Paulo (Unifesp). Atual.
 - **Fundador** — Genobit, Soluções em Dados Biológicos (startup incubada na INTEG/Unicentro). [www.genobit.net](https://www.genobit.net) · [contato@genobit.net](mailto:contato@genobit.net)
-- **Professor** — Centro Universitário Uniguairacá: imunologia clínica, bacteriologia clínica e bioquímica clínica.
-- **Bioinformática e bancada** — Programa Genomas Paraná (NAPI Genômica, Unicentro, IPEC Guarapuava).
 - **Nextflow Ambassador** — Seqera / comunidade Nextflow. [nextflow.io/our_ambassadors](https://www.nextflow.io/our_ambassadors.html)
+- **Bioinformática e bancada** — Programa Genomas Paraná (NAPI Genômica, Unicentro, IPEC Guarapuava). 2022–2026.
+- **Professor** — Centro Universitário Uniguairacá: imunologia clínica, bacteriologia clínica e bioquímica clínica. Anterior.
 
 ## Competências
 
