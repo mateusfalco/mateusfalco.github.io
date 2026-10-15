@@ -48,7 +48,7 @@ about:
 [<i class="bi bi-rocket-takeoff"></i> Founder of Genobit]{.badge-pill}
 [<i class="bi bi-mortarboard"></i> PhD candidate · Unicentro]{.badge-pill}]{.hero-badges}
 
-I am a Biomedical Scientist specialized in microbiology and molecular biology, currently a PhD candidate in Pharmaceutical Sciences at Unicentro (Brazil) and enrolled in an MBA in Data Science & Analytics at USP/Esalq. I teach clinical immunology, clinical bacteriology and clinical biochemistry at Centro Universitário Uniguairacá.
+I am a Biomedical Scientist specialized in microbiology and molecular biology, currently a PhD candidate in Pharmaceutical Sciences at Unicentro (Brazil) and enrolled in an MBA in Data Science & Analytics at USP/Esalq. I currently hold a TT5 position (Technical Training, level 5) in Bioinformatics at the Laboratory of Ontogeny and Epigenetics, Department of Pharmacy, Federal University of São Paulo (Unifesp). I have also taught clinical immunology, clinical bacteriology and clinical biochemistry at Centro Universitário Uniguairacá.
 
 My research and technical work focus on **bioinformatics, computational biology and genomics**. I am especially interested in building and optimizing scalable workflows for complex biological data, and in developing pipelines for tumor genomics and variant calling.
 
@@ -56,7 +56,55 @@ I am the founder of **[Genobit](https://www.genobit.net)**, a startup providing 
 
 :::
 
-## Education {.section-title}
+## Background {.section-title}
+
+::: {.grid .trajectory}
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="bi bi-briefcase"></i> Experience
+
+::: {.timeline}
+
+::: {.timeline-item .current}
+[Current]{.timeline-date}
+
+**TT5 · Technical Training Fellowship (level 5) in Bioinformatics**<br>
+Laboratory of Ontogeny and Epigenetics · Department of Pharmacy, Unifesp
+:::
+
+::: {.timeline-item .current}
+[Current]{.timeline-date}
+
+**Founder**<br>
+Genobit · Biological Data Solutions
+:::
+
+::: {.timeline-item .current}
+[Current]{.timeline-date}
+
+**Nextflow Ambassador**<br>
+Nextflow community · Seqera
+:::
+
+::: {.timeline-item}
+[2022 – 2026]{.timeline-date}
+
+**Bioinformatics and wet lab**<br>
+Genomas Paraná Program · NAPI Genômica, Unicentro and IPEC
+:::
+
+::: {.timeline-item}
+[Previous]{.timeline-date}
+
+**Lecturer**<br>
+Centro Universitário Uniguairacá · clinical immunology, bacteriology and biochemistry
+:::
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="bi bi-mortarboard"></i> Education
 
 ::: {.timeline}
 
@@ -89,5 +137,9 @@ State University of Londrina (UEL)
 :::
 
 :::
+:::
+
+:::
+
 
 Publications are listed on the [publications page](../publicacoes.qmd) and on [Google Scholar](https://scholar.google.com/citations?user=mQW0aJYAAAAJ).

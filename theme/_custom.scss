@@ -363,3 +363,28 @@ strong > a {
 .hero-badges a:hover .badge-pill {
   background: rgba(0, 184, 141, .22);
 }
+
+/* ===== Trajetória (Experiência | Formação) ===== */
+.trajectory {
+  margin-top: 1rem;
+}
+
+.trajectory h3 {
+  margin: 0 0 .9rem;
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  border-bottom: none;
+}
+
+.trajectory h3 i {
+  color: #ff7a00;
+}
+
+/* Dentro das colunas a linha do tempo ocupa a largura da coluna */
+.trajectory .timeline {
+  max-width: none;
+  margin: 0;
+}
