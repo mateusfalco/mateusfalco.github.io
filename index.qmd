@@ -93,7 +93,48 @@ Promovendo pipelines reprodutíveis na comunidade.
 
 :::
 
-## Formação {.section-title}
+## Trajetória {.section-title}
+
+::: {.grid .trajectory}
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="bi bi-briefcase"></i> Experiência
+
+::: {.timeline}
+
+::: {.timeline-item .current}
+[Atual]{.timeline-date}
+
+**TT5 · Treinamento Técnico nível 5 em Bioinformática**<br>
+Laboratório de Ontogenia e Epigenética · Departamento de Farmácia, Unifesp
+:::
+
+::: {.timeline-item .current}
+[Atual]{.timeline-date}
+
+**Fundador**<br>
+Genobit · Soluções em Dados Biológicos
+:::
+
+::: {.timeline-item .current}
+[Atual]{.timeline-date}
+
+**Professor**<br>
+Centro Universitário Uniguairacá · imunologia, bacteriologia e bioquímica clínica
+:::
+
+::: {.timeline-item .current}
+[Atual]{.timeline-date}
+
+**Nextflow Ambassador**<br>
+Comunidade Nextflow · Seqera
+:::
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="bi bi-mortarboard"></i> Formação
 
 ::: {.timeline}
 
@@ -126,3 +167,7 @@ Universidade Estadual de Londrina (UEL)
 :::
 
 :::
+:::
+
+:::
+

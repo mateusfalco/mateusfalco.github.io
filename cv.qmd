@@ -26,6 +26,7 @@ Cientista Biomédico com especialização em microbiologia e biologia molecular,
 
 ## Atuação
 
+- **TT5 · Treinamento Técnico nível 5 em Bioinformática** — Laboratório de Ontogenia e Epigenética, Departamento de Farmácia, Universidade Federal de São Paulo (Unifesp). Atual.
 - **Fundador** — Genobit, Soluções em Dados Biológicos (startup incubada na INTEG/Unicentro). [www.genobit.net](https://www.genobit.net) · [contato@genobit.net](mailto:contato@genobit.net)
 - **Professor** — Centro Universitário Uniguairacá: imunologia clínica, bacteriologia clínica e bioquímica clínica.
 - **Bioinformática e bancada** — Programa Genomas Paraná (NAPI Genômica, Unicentro, IPEC Guarapuava).

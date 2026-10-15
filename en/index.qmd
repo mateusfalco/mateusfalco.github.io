@@ -56,7 +56,48 @@ I am the founder of **[Genobit](https://www.genobit.net)**, a startup providing 
 
 :::
 
-## Education {.section-title}
+## Background {.section-title}
+
+::: {.grid .trajectory}
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="bi bi-briefcase"></i> Experience
+
+::: {.timeline}
+
+::: {.timeline-item .current}
+[Current]{.timeline-date}
+
+**TT5 · Technical Training Fellowship (level 5) in Bioinformatics**<br>
+Laboratory of Ontogeny and Epigenetics · Department of Pharmacy, Unifesp
+:::
+
+::: {.timeline-item .current}
+[Current]{.timeline-date}
+
+**Founder**<br>
+Genobit · Biological Data Solutions
+:::
+
+::: {.timeline-item .current}
+[Current]{.timeline-date}
+
+**Lecturer**<br>
+Centro Universitário Uniguairacá · clinical immunology, bacteriology and biochemistry
+:::
+
+::: {.timeline-item .current}
+[Current]{.timeline-date}
+
+**Nextflow Ambassador**<br>
+Nextflow community · Seqera
+:::
+
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### <i class="bi bi-mortarboard"></i> Education
 
 ::: {.timeline}
 
@@ -89,5 +130,9 @@ State University of Londrina (UEL)
 :::
 
 :::
+:::
+
+:::
+
 
 Publications are listed on the [publications page](../publicacoes.qmd) and on [Google Scholar](https://scholar.google.com/citations?user=mQW0aJYAAAAJ).
