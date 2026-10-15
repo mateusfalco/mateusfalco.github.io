@@ -41,7 +41,10 @@ a.genobit:hover {
   font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: .02em;
-  color: var(--bs-primary);
+  text-align: center;
+  /* Laranja da marca; no modo claro um tom levemente mais fechado garante
+     contraste legível sobre o branco (definido em light.scss/dark.scss) */
+  color: var(--falco-orange-text, #e66a00);
 }
 
 .hero-badges {
